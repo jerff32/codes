@@ -1,4 +1,4 @@
- jQuery(document).ready(function($) {var xd = '<div class="novel_bloco"> <div class="novel_cartao"> <img src="';var dx = '</titulo_novel> </a> </div>';var novels = [
+ jQuery(document).ready(function($) {var xd = '<div class="novel_bloco"> <div class="novel_cartao rcm"> <img src="';var dx = '</titulo_novel> </a> </div>';var novels = [
 'IMG > [/wp-content/uploads/2021/03/TLM-450x600-1.jpg]'+
 'LINK > [tlm-the-legendary-mechanic]'+
 'NOME > [The Legendary Mechanic]',
@@ -173,7 +173,15 @@
 
 'IMG > [/wp-content/uploads/2021/04/RGK-1.jpg]'+
 'LINK > [/rise-of-the-godking-rgk/]'+
-'NOME > [Rise of The Godking]'
+'NOME > [Rise of The Godking]',
+  
+'IMG > [/wp-content/uploads/2021/07/coeus-300px.jpg]'+
+'LINK > [/coeus/]'+
+'NOME > [Coeus?]',
+  
+'IMG > [/wp-content/uploads/2021/07/DMD-300px.jpg]'+
+'LINK > [/dmd-e-dificil-se-misturar-com-demonios/]'+
+'NOME > [Manhua: É Difícil se Misturar com Demônios]'
 
 // NT: Ao add +1, não esqueça de por a virgula no final desse que é atualmente o ultimo.
 

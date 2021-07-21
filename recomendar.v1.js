@@ -1,7 +1,5 @@
- jQuery(document).ready(function($) {
-var xd = '<div class="novel_bloco"> <div class="novel_cartao"> <img src="';
-var dx = '</titulo_novel> </a> </div>';
-var novels = [
+jQuery(document).ready(function($) {var xd = '<div class="novel_bloco"> <div class="novel_cartao"> <img src="';var dx = '</titulo_novel> </a> </div>';var novels = [
+
 'IMG > [/wp-content/uploads/2021/03/TLM-450x600-1.jpg]'+
 'LINK > [tlm-the-legendary-mechanic]'+
 'NOME > [The Legendary Mechanic]',
@@ -178,9 +176,7 @@ var novels = [
 'LINK > [/rise-of-the-godking-rgk/]'+
 'NOME > [Rise of The Godking]'
 
-]
-const rps = novels[Math.floor(Math.random()*novels.length)].replace('IMG > [','').replace('LINK > [','" /> <a href="').replace('NOME > [','"> <titulo_novel>').replace(/\]/g, '');
-
-$("#Recomendar").replaceWith(xd+rps+dx).css("display", "block");
- $('#rcmdc').css('box-shadow','inset 0 0 15px black').css('background','#00000026');
- });
+ 
+ // NT: Ao add +1, não esqueça de por a virgula no final desse que é atualmente o ultimo.
+ 
+]const rps = novels[Math.floor(Math.random()*novels.length)].replace('IMG > [','').replace('LINK > [','" /> <a href="').replace('NOME > [','"> <titulo_novel>').replace(/\]/g, '');$("#Recomendar").replaceWith(xd+rps+dx).css("display", "block");$('#rcmdc').css('box-shadow','inset 0 0 15px black').css('background','#00000026');});

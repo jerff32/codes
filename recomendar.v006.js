@@ -3,6 +3,30 @@
 'LINK > [tlm-the-legendary-mechanic]'+
 'NOME > [The Legendary Mechanic]',
 
+'IMG > [/wp-content/uploads/2020/01/SCOG 450x600.jpg]'+
+'LINK > [/the-second-coming-of-gluttony-scog/]'+
+'NOME > [ A Segunda Vinda da Gula]',
+
+'IMG > [/wp-content/uploads/2021/02/RML  3x4.jpg]'+
+'LINK > [/rml-realm-of-myths-and-legends/]'+
+'NOME > [Realm Of Myths And Legends]',
+
+'IMG > [/wp-content/uploads/2021/06/MO-300.jpg]'+
+'LINK > [/mo-o-mundo-online/]'+
+'NOME > [O Mundo Online]',
+
+'IMG > [/wp-content/uploads/2021/07/GB.jpg]'+
+'LINK > [/gb-glutton-berserker-index/]'+
+'NOME > [Glutton Berserker]',
+
+'IMG > [/wp-content/uploads/2021/07/DN_300px.jpg]'+
+'LINK > [/dn-manga-dungeon-nursery/]'+
+'NOME > [Dungeon Nursery]',
+
+'IMG > [/wp-content/uploads/2021/04/lovecraft-e1627075367420.jpg]'+
+'LINK > [/lovecraft/]'+
+'NOME > [Lovecraft]',
+
 'IMG > [/wp-content/uploads/2021/04/Ned.jpg]'+
 'LINK > [/nascimento-da-espada-demoniaca-ned/]'+
 'NOME > [Nascimento da Espada Demoníaca]',

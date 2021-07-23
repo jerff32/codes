@@ -189,7 +189,11 @@
 
 'IMG > [/wp-content/uploads/2021/07/SM-1.jpg]'+
 'LINK > [/sm-supreme-magus/]'+
-'NOME > [Supreme Magus]'
+'NOME > [Supreme Magus]',
+  
+'IMG > [/wp-content/uploads/2021/07/AVALON-1.jpg]'+
+'LINK > [/the-avalon-of-five-elements-index/]'+
+'NOME > [The Avalon Of Five Elements]'
 // NT: Ao add +1, não esqueça de por a virgula no final desse que é atualmente o ultimo.
 
  ];const rps = novels[Math.floor(Math.random()*novels.length)].replace('IMG > [','').replace('LINK > [','" /> <a href="').replace('NOME > [','"> <titulo_novel>').replace(/\]/g, '');$("#Recomendar").replaceWith(xd+rps+dx).css("display", "block");$('#rcmdc').css('box-shadow','inset 0 0 15px black').css('background','#00000026');});

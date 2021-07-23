@@ -6,6 +6,10 @@
 'IMG > [/wp-content/uploads/2021/04/Ned.jpg]'+
 'LINK > [/nascimento-da-espada-demoniaca-ned/]'+
 'NOME > [Nascimento da Espada Demoníaca]',
+  
+'IMG > [/wp-content/uploads/2020/12/gog1.jpg]'+
+'LINK > [/gate-of-god-index/]'+
+'NOME > [Gate of God]',
 
 'IMG > [/wp-content/uploads/2021/03/MP-3x4-1.jpg]'+
 'LINK > [/mpe-monster-pet-evolution/]'+

@@ -221,7 +221,15 @@
   
 'IMG > [/wp-content/uploads/2021/07/AVALON-1.jpg]'+
 'LINK > [/the-avalon-of-five-elements-index/]'+
-'NOME > [The Avalon Of Five Elements]'
+'NOME > [The Avalon Of Five Elements]',
+  
+'IMG > [/wp-content/uploads/2021/07/DCSD-300px.jpg]'+
+'LINK > [/dcsd-divindade-contra-o-sistema-divino/]'+
+'NOME > [Divindade: Contra o Sistema Divino]',
+  
+'IMG > [/wp-content/uploads/2021/07/AME-300px.jpg]'+
+'LINK > [/ame-academia-dos-magos-de-elite/]'+
+'NOME > [Academia dos Magos de Elite]'
 // NT: Ao add +1, não esqueça de por a virgula no final desse que é atualmente o ultimo.
 
  ];const rps = novels[Math.floor(Math.random()*novels.length)].replace('IMG > [','').replace('LINK > [','" /> <a href="').replace('NOME > [','"> <titulo_novel>').replace(/\]/g, '');$("#Recomendar").replaceWith(xd+rps+dx).css("display", "block");$('#rcmdc').css('box-shadow','inset 0 0 15px black').css('background','#00000026');});

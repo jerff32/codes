@@ -1,4 +1,7 @@
- jQuery(document).ready(function($) {var xd = '<div class="novel_bloco"> <div class="novel_cartao rcm"> <img src="';var dx = '</titulo_novel> </a> </div>';var novels = [
+ jQuery(document).ready(function($) {
+  
+  var novels = [
+
 'IMG > [/wp-content/uploads/2021/03/TLM-450x600-1.jpg]'+
 'LINK > [tlm-the-legendary-mechanic]'+
 'NOME > [The Legendary Mechanic]',
@@ -230,6 +233,35 @@
 'IMG > [/wp-content/uploads/2021/07/AME-300px.jpg]'+
 'LINK > [/ame-academia-dos-magos-de-elite/]'+
 'NOME > [Academia dos Magos de Elite]'
-// NT: Ao add +1, não esqueça de por a virgula no final desse que é atualmente o ultimo.
+ ];
+ 
+ Array.prototype.shuffle = function() {
 
- ];const rps = novels[Math.floor(Math.random()*novels.length)].replace('IMG > [','').replace('LINK > [','" /> <a href="').replace('NOME > [','"> <titulo_novel>').replace(/\]/g, '');$("#Recomendar").replaceWith(xd+rps+dx).css("display", "block");$('#rcmdc').css('box-shadow','inset 0 0 15px black').css('background','#00000026');});
+    let indice = this.length;
+    
+    while(indice) {
+        const indiceAleatorio = Math.floor(Math.random() * indice--);
+        [this[indice], this[indiceAleatorio]] = 
+            [this[indiceAleatorio], this[indice]];} return this;} 
+novels.shuffle();
+
+
+ var inici = '<div class="bloco_recomendar"> ';
+var xd = '<div class="novel_cartao rcm"> <img src="';var dx = '</titulo_novel> </a> </div>';
+var ultimo =  novels[novels.length - 1];
+var ultimo1 =  novels[novels.length - 2];
+var ultimo2 =  novels[novels.length - 3];
+var fim = '</div>';
+var renome = 
+ultimo.replace(/IMG > \[/g,xd).replace(/LINK > \[/g,'" /> <a href="').replace(/NOME > \[/g,'"> <titulo_novel>').replace(/\]/g, '') +dx+ 
+ultimo1.replace(/IMG > \[/g,xd).replace(/LINK > \[/g,'" /> <a href="').replace(/NOME > \[/g,'"> <titulo_novel>').replace(/\]/g, '')+dx + 
+ultimo2.replace(/IMG > \[/g,xd).replace(/LINK > \[/g,'" /> <a href="').replace(/NOME > \[/g,'"> <titulo_novel>').replace(/\]/g, '')+dx;
+
+var renome1 = ultimo.replace(/IMG > \[/g,xd).replace(/LINK > \[/g,'" /> <a href="').replace(/NOME > \[/g,'"> <titulo_novel>').replace(/\]/g, '') +dx
+
+
+  $("#Recomendar3").replaceWith(inici+renome+fim);
+  $("#Recomendar").replaceWith(inici+renome1+fim);
+  $(".bloco_recomendar")
+  .css('display', 'flex')
+  .css('justify-content','center')  ;});

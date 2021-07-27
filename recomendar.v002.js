@@ -26,7 +26,7 @@
 'LINK > [/dn-manga-dungeon-nursery/]'+
 'NOME > [Dungeon Nursery]',
 
-'IMG > [/wp-content/uploads/2021/04/lovecraft-e1627075367420.jpg]'+
+'IMG > [/wp-content/uploads/2021/07/lovecraft.jpg]'+
 'LINK > [/lovecraft/]'+
 'NOME > [Lovecraft]',
 

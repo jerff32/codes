@@ -261,7 +261,7 @@ var renome1 = ultimo.replace(/IMG > \[/g,xd).replace(/LINK > \[/g,'" /> <a href=
 
 
   $("#Recomendar3").replaceWith(inici+renome+fim);
-  $("#Recomendar").replaceWith(inici+renome1+fim);
+  $("#Recomendar").replaceWith(renome1).css("display", "block");$('#rcmdc').css('box-shadow','inset 0 0 15px black').css('background','#00000026');
   $(".bloco_recomendar")
   .css('display', 'flex')
   .css('justify-content','center')  ;});

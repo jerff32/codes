@@ -524,8 +524,8 @@ function(e, t) {
             position: "relative"
         },
         initLayout: !0,
-        originLeft: 'auto',
-        originTop: 'auto',
+        originLeft: '0px',
+        originTop: '0px',
         resize: !0,
         resizeContainer: !0,
         transitionDuration: "0.4s",

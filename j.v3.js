@@ -470,10 +470,10 @@ function(e, t) {
     }, m.destroy = function() {
         this.css({
             position: "",
-            left: "auto",
-            right: "auto",
-            top: "auto",
-            bottom: "auto",
+            left: "",
+            right: "",
+            top: "",
+            bottom: "",
             transition: "",
             transform: ""
         })
@@ -524,8 +524,8 @@ function(e, t) {
             position: "relative"
         },
         initLayout: !0,
-        originLeft: !0,
-        originTop: !0,
+        originLeft: 'auto',
+        originTop: 'auto',
         resize: !0,
         resizeContainer: !0,
         transitionDuration: "0.4s",

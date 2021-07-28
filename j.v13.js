@@ -1436,7 +1436,7 @@ Outlayer.defaults = {
   resize: 0,
   resizeContainer: 0,
   // item options
-  transitionDuration: 0,
+  transitionDuration: "1s",
   hiddenStyle: {
     opacity: 0,
     transform: 0

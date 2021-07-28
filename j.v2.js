@@ -334,6 +334,12 @@ function(e, t) {
             d = i ? "bottom" : "top",
             p = this.position.y + e[l];
         t[m] = this.getYValue(p), t[d] = "", this.css(t), this.emitEvent("layout", [this])
+    }, m.getXValue = function(e) {
+        var t = this.layout._getOption("horizontal");
+        return this.layout.options.percentPosition && !t ? 100 * (e / this.layout.size.width) + "%" : e + "px"
+    }, m.getYValue = function(e) {
+        var t = this.layout._getOption("horizontal");
+        return this.layout.options.percentPosition && t ? 100 * (e / this.layout.size.height) + "%" : e + "px"
     }, m._transitionTo = function(e, t) {
         this.getPosition();
         var o = this.position.x,
@@ -464,10 +470,10 @@ function(e, t) {
     }, m.destroy = function() {
         this.css({
             position: "",
-            left: "",
-            right: "",
-            top: "",
-            bottom: "",
+            left: "auto",
+            right: "auto",
+            top: "auto",
+            bottom: "auto",
             transition: "",
             transform: ""
         })

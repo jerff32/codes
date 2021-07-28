@@ -1311,10 +1311,10 @@ proto.onHideTransitionEnd = function() {
 proto.destroy = function() {
   this.css({
     position: 'relative',
-    left: 0,
-    right: 0,
-    top: 0,
-    bottom:0,
+    left: 'auto',
+    right: 'auto',
+    top: 'auto',
+    bottom: 'auto',
     transition: '',
     transform: ''
   });
@@ -1430,13 +1430,13 @@ Outlayer.defaults = {
   containerStyle: {
     position: 'relative'
   },
-  initLayout: 0,
-  originLeft: 0,
-  originTop: 0,
+  initLayout: true,
+  originLeft: true,
+  originTop: true,
   resize: 0,
   resizeContainer: 0,
   // item options
-  transitionDuration: "1s",
+  transitionDuration: '1s',
   hiddenStyle: {
     opacity: 0,
     transform: 0

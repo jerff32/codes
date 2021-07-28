@@ -1430,9 +1430,9 @@ Outlayer.defaults = {
   containerStyle: {
     position: 'relative'
   },
-  initLayout: 0,
-  originLeft: 0,
-  originTop: 0,
+  initLayout: true,
+  originLeft: true,
+  originTop: true,
   resize: 0,
   resizeContainer: 0,
   // item options

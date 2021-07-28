@@ -190,10 +190,6 @@
 'LINK > [/sistema-divino-a-evolucao-de-um-gatinho-sdeg/]'+
 'NOME > [Sistema Divino: A Evolução de Um Gatinho]',
 
-'IMG > [/wp-content/uploads/2021/07/GB.jpg]'+
-'LINK > [/gb-glutton-berserker-index/]'+
-'NOME > [Glutton Berserker]',
-
 'IMG > [/wp-content/uploads/2021/04/14.jpg]'+
 'LINK > [/sun-eu-sou-o-unico-necromante/]'+
 'NOME > [Eu Sou o Único Necromante]',

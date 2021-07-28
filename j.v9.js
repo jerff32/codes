@@ -1432,7 +1432,7 @@ Outlayer.defaults = {
   transitionDuration: '0.4s',
   hiddenStyle: {
     opacity: 0,
-    transform: 'scale(0.001)'
+    transform: 'scale(0.01)'
   },
   visibleStyle: {
     opacity: 1,

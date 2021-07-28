@@ -469,11 +469,11 @@ function(e, t) {
         }), this.emitEvent("hide"))
     }, m.destroy = function() {
         this.css({
-            position: "",
-            left: "",
-            right: "",
-            top: "",
-            bottom: "",
+            position: "relative",
+            left: "auto",
+            right: "auto",
+            top: "auto",
+            bottom: "auto",
             transition: "",
             transform: ""
         })

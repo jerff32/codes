@@ -1423,11 +1423,11 @@ Outlayer.defaults = {
   containerStyle: {
     position: 'relative'
   },
-  initLayout: true,
-  originLeft: true,
-  originTop: true,
-  resize: true,
-  resizeContainer: true,
+  initLayout: false,
+  originLeft: false,
+  originTop: false,
+  resize: false,
+  resizeContainer: false,
   // item options
   transitionDuration: '0.4s',
   hiddenStyle: {

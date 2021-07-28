@@ -1423,20 +1423,20 @@ Outlayer.defaults = {
   containerStyle: {
     position: 'relative'
   },
-  initLayout: false,
-  originLeft: false,
-  originTop: false,
-  resize: false,
-  resizeContainer: false,
+  initLayout: 0,
+  originLeft: 0,
+  originTop: 0,
+  resize: 0,
+  resizeContainer: 0,
   // item options
-  transitionDuration: '0.4s',
+  transitionDuration: 0,
   hiddenStyle: {
     opacity: 0,
-    transform: 'scale(0.01)'
+    transform: 0
   },
   visibleStyle: {
-    opacity: 1,
-    transform: 'scale(1)'
+    opacity: 0,
+    transform: 0
   }
 };
 

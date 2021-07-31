@@ -90,9 +90,6 @@ var st00 = '<div id="SYS0"><hr id="DVZZ" />'; var stt00 = '<div id="SYS0" class=
  ); });}); 
 
 
-  function func() {
-      $('.rodape01').append('<style>p, hr, h1, h2, h3, h4, h5, h6 { opacity: 1 !important; display: block !important; }</style>')
-  } 
-  
+ 
 
 

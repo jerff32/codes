@@ -4,6 +4,81 @@ animateIn:!1},e.prototype.swap=function(){if(1===this.core.settings.items&&a.sup
             var $vulcan_completa = $(".Carousel_completa");
 var $vulcan_slide = $("#Carousel_slide");
 var $vulcan_novel = $(".Carousel_novel");
+  var $vulcan_breve = $(".Carousel_breve");
 var $vulcan_avisos = $(".Carousel_avisos");
 
-$vulcan_slide.vulcanCarousel({ autoplay: true, autoplayHoverPause: !0, autoplaySpeed: 1500, center: !0, items: 1, loop: !0 }); $vulcan_completa.vulcanCarousel({ autoplay: false, loop: false, responsiveClass: !0, responsiveClass: !0, responsive: { 0: { items: 1 }, 538: { items: 1 }, 720: { items: 2 } } }); $vulcan_novel.vulcanCarousel({ autoplay: false, loop: !0, responsiveClass: !0, responsive: { 0: { items: 2 }, 500: { items: 3 }, 600: { items: 4 }, 1200: { items: 5 }, 1500: { items: 6 } } }); $vulcan_avisos.vulcanCarousel({ items: 1.1, loop: true, center: true }); });
+$vulcan_slide.vulcanCarousel({
+    autoplay: true,
+    autoplayHoverPause: !0,
+    autoplaySpeed: 1500,
+    center: !0,
+    items: 1,
+    loop: !0
+});
+$vulcan_completa.vulcanCarousel({
+    autoplay: false,
+    loop: false,
+    responsiveClass: !0,
+    responsiveClass: !0,
+    responsive: {
+        0: {
+            items: 1
+        },
+        538: {
+            items: 1
+        },
+        720: {
+            items: 2
+        }
+    }
+});
+$vulcan_novel.vulcanCarousel({
+    autoplay: false,
+    loop: !0,
+    responsiveClass: !0,
+    responsive: {
+        0: {
+            items: 2
+        },
+        500: {
+            items: 3
+        },
+        600: {
+            items: 4
+        },
+        1200: {
+            items: 5
+        },
+        1500: {
+            items: 6
+        }
+    }
+});
+  $vulcan_breve.vulcanCarousel({
+    autoplay: false,
+    loop: false,
+    responsiveClass: !0,
+    responsive: {
+        0: {
+            items: 2
+        },
+        500: {
+            items: 3
+        },
+        600: {
+            items: 4
+        },
+        1200: {
+            items: 5
+        },
+        1500: {
+            items: 6
+        }
+    }
+});
+$vulcan_avisos.vulcanCarousel({
+items: 1.1,
+loop: true,
+center: true
+});
+});

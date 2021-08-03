@@ -57,6 +57,7 @@ $vulcan_novel.vulcanCarousel({
   $vulcan_breve.vulcanCarousel({
     autoplay: false,
     loop: false,
+   center:true,
     responsiveClass: !0,
     responsive: {
         0: {

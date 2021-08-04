@@ -100,4 +100,4 @@ var st00 = '<div id="SYS0"><hr id="DVZZ" />'; var stt00 = '<div id="SYS0" class=
    $('.tela_s').each(function() {
       var texto = $(this).html();
  $(this).html(texto.replace(/\[\[/g, '<div class=txt0>').replace(/]]/g,'<hr class="ts"/></div>')
- ); });}); 
+ ); });

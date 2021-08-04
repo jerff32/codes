@@ -81,8 +81,8 @@ $(document).ready(function() {
   $('#letra-zoom').each(function() {
       var texto = $(this).html();
       var dv1 = '<hr id="DV1" />';
-      var dply = '<div><tela_s><bd1></bd1><bd4></bd4><txt>';
-      var dply2 = '</txt><bd2 class="x"></bd2><bd3></bd3></tela_s></div>';
+      var dply = "<div class='tela_s'><div class='bd1'></div><div class='bd4'></div><div class=txt>";
+      var dply2 = "</div> <div class=bd2></div><div class=bd3></div> </div>";
       var envenenamento = '<img class="alignnone wp-image-81823" src="https://vulcannovel.com.br/wp-content/uploads/2021/03/envenenamento-300x57.png" alt="" width="128" height="29" />';
       var sangr = '<img class="alignnone wp-image-80472" src="https://vulcannovel.com.br/wp-content/uploads/2021/03/sangramento-1-300x80.png" alt="" width="134" height="35" />';
       var sono = '<img class="wp-image-97137 alignnone" src="https://vulcannovel.com.br/wp-content/uploads/2021/07/zzz.png" alt="" width="41" height="42" />';

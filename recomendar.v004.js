@@ -228,7 +228,23 @@
   
 'IMG > [/wp-content/uploads/2021/07/AME-300px.jpg]'+
 'LINK > [/ame-academia-dos-magos-de-elite/]'+
-'NOME > [Academia dos Magos de Elite]'
+'NOME > [Academia dos Magos de Elite]',
+ 
+'IMG > [/wp-content/uploads/2021/07/Regressor-300.jpg]'+
+'LINK > [/rvp-regressor-da-vida-passada/]'+
+'NOME > [Regressor da Vida Passada]',
+
+'IMG > [/wp-content/uploads/2021/08/paragon-300px.jpg]'+
+'LINK > [/pdd-paragon-da-destruicao/]'+
+'NOME > [Paragon da Destruição]',
+   
+'IMG > [/wp-content/uploads/2021/08/Virus-300px.jpg]'+
+'LINK > [/tv-transmigrado-como-um-virus/]'+
+'NOME > [Transmigrado como um Vírus]',
+
+'IMG > [/wp-content/uploads/2021/07/lucia-300px.jpg]'+
+'LINK > [/lucia/]'+
+'NOME > [Lucia]'
  ];
  
  Array.prototype.shuffle = function() {

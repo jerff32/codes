@@ -33,6 +33,9 @@ $vulcan_completa.vulcanCarousel({
         },
         768: {
             items: 1
+        },
+     900: {
+            items: 2
         }
     }
 });

@@ -60,7 +60,7 @@ $vulcan_novel.vulcanCarousel({
     loop: false,
     responsiveClass: !0,
     responsiveClass: !0,
- center: false,
+ center: true,
     responsive: {
         0: {
             items: 1

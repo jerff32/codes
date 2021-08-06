@@ -55,26 +55,21 @@ $vulcan_novel.vulcanCarousel({
         }
     }
 });
-  $vulcan_breve.vulcanCarousel({
+ $vulcan_breve.vulcanCarousel({
     autoplay: false,
     loop: false,
-   center:true,
     responsiveClass: !0,
+    responsiveClass: !0,
+ center: false,
     responsive: {
         0: {
-            items: 2
+            items: 1
         },
-        500: {
-            items: 3
+        538: {
+            items: 1
         },
-        600: {
-            items: 4
-        },
-        1200: {
-            items: 5
-        },
-        1500: {
-            items: 6
+        720: {
+            items: 1
         }
     }
 });

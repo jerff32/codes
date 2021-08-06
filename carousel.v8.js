@@ -16,8 +16,8 @@ $vulcan_slide.vulcanCarousel({
     loop: !0
 });
 $vulcan_completa.vulcanCarousel({
-    autoplay: true,
-    loop: true,
+    autoplay: false,
+    loop: false,
     responsiveClass: !0,
     responsiveClass: !0,
  center: true,
@@ -26,7 +26,7 @@ $vulcan_completa.vulcanCarousel({
             items: 1
         },
         538: {
-            items: 1
+            items: 2
         },
         720: {
             items: 2

@@ -20,6 +20,7 @@ $vulcan_completa.vulcanCarousel({
     loop: true,
     responsiveClass: !0,
     responsiveClass: !0,
+ center: true,
     responsive: {
         0: {
             items: 1

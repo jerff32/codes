@@ -23,13 +23,16 @@ $vulcan_completa.vulcanCarousel({
  center: false,
     responsive: {
         0: {
+            items: 2
+        },
+        500: {
+            items: 3
+        },
+      600: {
+            items: 4
+        },
+        768: {
             items: 1
-        },
-        538: {
-            items: 2
-        },
-        720: {
-            items: 2
         }
     }
 });

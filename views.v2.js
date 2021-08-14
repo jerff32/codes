@@ -82,6 +82,7 @@ var Our = '13' + vz + '893' + vi;
 var LDD = '12' + vz + '1.126' + vi;
 // ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
      return $(this).html().replace('style="color: rgba(255, 255, 255, 0);', 'style="color: #add7e1;').replace('id="VISIVEL"', 'id="OCULTO"').replace(/#TML#/, TML).replace(/#MDS#/, MDS).replace(/#MP#/, MP).replace(/#EGP#/, EGP).replace(/#NED#/, NED).replace(/#NR#/, NR).replace(/#NV1#/, NV1).replace(/#MPE#/, MPE).replace(/#RML#/, RML).replace(/#TTD#/, TTD).replace(/#SHS#/, SHS).replace(/#SBS#/, SBS).replace(/#PTO#/, PTO).replace(/#OSI#/, OSI).replace(/#SUD#/, SUD).replace(/#SFF#/, SFF).replace(/#PD#/, PD).replace(/#STE#/, STE).replace(/#MCK#/, MCK).replace(/#MAI#/, MAI).replace(/#HC#/, HC).replace(/#Grimgar#/, Grimgar).replace(/#SUN#/, SUN).replace(/#RMV#/, RMV).replace(/#UC#/, UC).replace(/#KOC#/, KOC).replace(/#Kalui#/, Kalui).replace(/#CYR#/, CYR).replace(/#TR#/, TR).replace(/#DT#/, DT).replace(/#RAC#/, RAC).replace(/#Jack#/, Jack).replace(/#ROC#/, ROC).replace(/#SWS#/, SWS).replace(/#TOB#/, TOB).replace(/#CE#/, CE).replace(/#Makai#/, Makai).replace(/#OUR#/, Our).replace(/#LDD#/, LDD).replace(/#OMO#/, OMO).replace(/#LGP#/, LGP)
+.replace(/#DS#/, DS)
      
      ;});});
 })(jQuery);

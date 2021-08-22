@@ -2,7 +2,6 @@
   
   var novels = [
 
-
 'IMG > [/wp-content/uploads/2021/08/ADT-300x400-1.webp]'+
 'LINK > [/adt-a-distopia-de-tykon/]'+
 'NOME > [A Distopia de Tykon]',
@@ -298,7 +297,7 @@
 'NOME > [Um Monstro Voraz]',
 'IMG > [/wp-content/uploads/2021/08/UC-3x4-1.webp]'+
 'LINK > [/uc-upando-comendo/]'+
-'NOME > [Upando Comendo]
+'NOME > [Upando Comendo]'
  ];
  
  Array.prototype.shuffle = function() {

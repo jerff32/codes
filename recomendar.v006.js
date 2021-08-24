@@ -2,6 +2,10 @@
   
   var novels = [
 
+'IMG > [/wp-content/uploads/2021/08/mia-300.webp]'+
+'LINK > [/mia-mana-infinita-no-apocalipse/]'+
+'NOME > [Infinite Mana in the Apocalypse]',
+   
 'IMG > [/wp-content/uploads/2021/08/ADT-300x400-1.webp]'+
 'LINK > [/adt-a-distopia-de-tykon/]'+
 'NOME > [A Distopia de Tykon]',

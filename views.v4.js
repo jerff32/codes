@@ -129,7 +129,7 @@ var ERP = '42' + vz + '1.967' + vi;
 var ASC = '43' + vz + '1.628' + vi;
 
 // ~ ~ ~ Coeus?
-var Coeus? = '44' + vz + '1.579' + vi;
+var Coeus = '44' + vz + '1.579' + vi;
 
 //Upando Comendo
 var UC = '45' + vz + '1.245' + vi;

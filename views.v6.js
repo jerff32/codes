@@ -90,7 +90,7 @@ var MO = '29' + vz + '7.238' + vi;
 var STE = '30' + vz + '6.716' + vi;
 
 // ~ ~ ~ Deixe-me Jogar em Paz
-var DJP = '31' + vz + '5.833' + vi;     
+var LGP = '31' + vz + '5.833' + vi;     
 
 // ~ ~ ~ Grimgar
 var Grimgar = '32' + vz + '4.712' + vi;

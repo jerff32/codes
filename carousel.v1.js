@@ -41,7 +41,7 @@ $vulcan_completa.vulcanCarousel({
 });
 $vulcan_novel.vulcanCarousel({
     autoplay: false,
-    loop: !0,
+    loop: false,
     responsiveClass: !0,
     responsive: {
         0: {

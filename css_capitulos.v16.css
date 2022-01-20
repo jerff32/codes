@@ -794,12 +794,16 @@ div#tela-celular {
 
 
 .Tela.t-preta {
-        background: #000;
+          background: #000;
     --border-width: 1px;
+    font-variant-caps: normal;
     border-radius: 8px;
 }
 .Tela.t-cinza {
     background: #343434;
+	 --border-width: 1px;
+    font-variant-caps: normal;
+    border-radius: 8px;
 }
 .Tela.t-cinza::after,.Tela.t-preta::after {
  background: #84e9ff;

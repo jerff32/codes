@@ -799,13 +799,13 @@ div#tela-celular {
     font-variant-caps: normal;
     border-radius: 8px;
 }
-.Tela.t-cinza {
-    background: #343434;
+.Tela.t-escura {
+    background: #101010;
 	 --border-width: 1px;
     font-variant-caps: normal;
     border-radius: 8px;
 }
-.Tela.t-cinza::after,.Tela.t-preta::after {
+.Tela.t-escura::after,.Tela.t-preta::after {
  background: #84e9ff;
 }
 

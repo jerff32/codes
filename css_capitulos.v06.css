@@ -741,8 +741,8 @@ div#tela-celular {
 .Prata {
        --border-width: 4px;
     position: relative;
-    width: 300px;
-    height: 200px;
+       width: fit-content;
+    height: fit-content;
     background: #343434;
     background-blend-mode: color-burn;
     background-position: center;

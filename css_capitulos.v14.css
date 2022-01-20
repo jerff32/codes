@@ -787,6 +787,20 @@ div#tela-celular {
     background-position: 0 50%;
 }
 
+.Tela.t-cinza {
+    background: #343434;
+}
+.Tela.t-cinza::after,.Tela.t-preta::after {
+    background: linear-gradient(
+60deg
+,#84e9ff,#171919,#84e9ff,#171919,#84e9ff,#171919,#84e9ff,#17191900);
+    background-size: 300% 300%;
+    background-position: 0 50%;
+}
+.Tela.t-preta {
+    background: black;
+}
+
 
 
 

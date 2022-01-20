@@ -648,7 +648,7 @@ div#SYS0 strong {
 }
 
 .Esverdeado {
-    drop-shadow(1px 3px 1px #000) hue-rotate(273deg)!important
+   filter: drop-shadow(1px 3px 1px #000) hue-rotate(273deg)!important
 }
 
 #sistema-celular {
@@ -738,7 +738,7 @@ div#tela-celular {
     left: 30%
 }
 
-.Prata {
+.Tela {
        --border-width: 4px;
     position: relative;
        width: fit-content;
@@ -755,7 +755,7 @@ div#tela-celular {
     font-family: 'Quicksand';
 }
 
-.Prata::after {
+.Tela::after {
         position: absolute;
     content: "";
     top: calc(-1 * var(--border-width));
@@ -772,7 +772,7 @@ div#tela-celular {
     animation: bordaPrata 6s alternate infinite;
     filter: drop-shadow(1px 4px 1px black);
 }
-.prata {
+.telA {
     position: relative;
     z-index: 0;
 }
@@ -1018,12 +1018,9 @@ div#SYS0.Sangrento:before {
 
 
 
-/*
-##
-#
-#
-#
-#*/
+
+
+
 
 
 
@@ -1043,351 +1040,5 @@ div#SYS0.Sangrento:before {
 	}
 }
 
-.escuro::-webkit-scrollbar-track,
-.escuro::-webkit-scrollbar-corner,
-body::-webkit-scrollbar {
-	background-color: #212121
-}
 
-.gandalf::-webkit-scrollbar-track,
-.gandalf::-webkit-scrollbar-corner,
-body::-webkit-scrollbar {
-	background-color: #757272
-}
 
-.atlantida::-webkit-scrollbar-track,
-.atlantida::-webkit-scrollbar-corner,
-body::-webkit-scrollbar {
-	background-color: #3b536c
-}
-
-.light::-webkit-scrollbar-track,
-.light::-webkit-scrollbar-corner,
-body::-webkit-scrollbar {
-	background-color: #fef4d6
-}
-
-#container>div.post>div>section.elementor-section.elementor-top-section.elementor-element.elementor-section-boxed>div>div>div>div.elementor-widget.elementor-widget-html {
-	margin: 1px !important
-}
-
-#container>div.post>div>section.elementor-section.elementor-top-section.elementor-element.elementor-section-boxed.elementor-section-height-default>div>div>div>div>div>hr {
-	position: relative;
-	top: -11px
-}
-
-.escuro {
-	background: #000 !important
-}
-
-.escuro * {
-	color: #d5d5d5 !important
-}
-
-.escuro div#veja-t * {
-	color: #c596ff !important
-}
-
-.escuro .elementor-button-wrapper * {
-	color: #000 !important
-}
-
-.gandalf {
-	background: #999 !important
-}
-
-.gandalf * {
-	color: #00063f !important
-}
-
-.atlantida {
-	background: #4c6989 !important
-}
-
-.atlantida * {
-	color: #ededed !important
-}
-
-.night {
-	background: #14272d !important
-}
-
-i.fa.fa-gavel.tem-5 {
-	color: #cdcdcd !important
-}
-
-.light {
-	background: #fff7e0 !important
-}
-
-.light * {
-	color: #000 !important
-}
-
-.light h1.elementor-heading-title {
-	color: #fff !important
-}
-
-.light #chapter-utils-mobile *,
-.light #feedback * {
-	color: #fff !important
-}
-
-.light a.scrolltop,
-.light #Topo {
-	filter: grayscale(80%)
-}
-
-.light .elementor-search-form__input {
-	background: #4b4b4b !important;
-	color: #fff !important
-}
-
-.light .fa-search {
-	color: #c4c4c4 !important
-}
-
-.night .tema-v,
-.light .tema-v,
-.escuro .tema-v,
-.atlantida .tema-v,
-.gandalf .tema-v {
-	display: block
-}
-
-.tem-2:after {
-	content: ' Atlântida'
-}
-
-.tem-1:after {
-	content: ' Abismo'
-}
-
-.gandalf #SYS0 *,
-.gandalf #sistema-celular *,
-.light #sistema-celular * {
-	color: #e3e3e3 !important
-}
-
-.tem-3:after {
-	content: ' Éter'
-}
-
-.tem-4:after {
-	content: ' Niflheim'
-}
-
-.tem-5:after {
-	content: ' Gandalf'
-}
-
-.tema-v,
-.light .tem-2,
-.night .tem-1,
-.escuro .tem-3,
-.gandalf .tem-4,
-.atlantida .tem-5 {
-	display: none
-}
-
-.gandalf #esconda-t>label>img {
-	filter: none !important
-}
-
-.atlantida #esconda-t>label>img {
-	filter: invert(1) !important
-}
-
-.night button.w3-bar-item.w3-button.themeNight,
-.night button.w3-bar-item.w3-button.themeLight,
-.escuro button.w3-bar-item.w3-button.themeEscuro,
-.gandalf button.w3-bar-item.w3-button.themeGandalf,
-.atlantida button.w3-bar-item.w3-button.themeAtlantida {
-	padding: 0
-}
-
-.light .w3-button.themeNight,
-.light .w3-button.themeGandalf,
-.light .w3-button.themeAtlantida,
-.night .w3-button.themeAtlantida,
-.night .w3-button.themeLight,
-.night .w3-button.themeEscuro,
-.escuro .w3-button.themeGandalf,
-.escuro .w3-button.themeAtlantida,
-.escuro .w3-button.themeLight,
-.gandalf .w3-button.themeNight,
-.gandalf .w3-button.themeLight,
-.gandalf .w3-button.themeEscuro,
-.atlantida .w3-button.themeEscuro,
-.atlantida .w3-button.themeGandalf,
-.atlantida .w3-button.themeNight {
-	display: none
-}
-
-body {
-	transition: background .2s linear
-}
-
-.atlantida i.fa.fa-tint.tem-2 {
-	color: #bdfff8 !important
-}
-
-.gandalf h1.elementor-heading-title.elementor-size-default,
-.atlantida h1.elementor-heading-title.elementor-size-default,
-.gandalf .elementor-element-79800919>* {
-	color: #aeaeae !important
-}
-
-.gandalf #container>div.elementor.elementor-94824>* a,
-.light #container>div.elementor.elementor-94824>* a {
-	filter: invert(1)
-}
-
-.light #wpadminbar a.ab-item {
-	color: #13b6ad !important
-}
-
-.display-name,
-.elementor-edit-link-title,
-.light #wpadminbar>#wp-toolbar span.ab-label {
-	color: #fff !important
-}
-
-.escuro div.elementor-background-overlay,
-.gandalf div.elementor-background-overlay,
-.atlantida div.elementor-background-overlay,
-.light div.elementor-background-overlay {
-	display: none
-}
-
-.fa-sun:before {
-	color: #f39c12
-}
-
-.escuro ul.ekit_social_media * {
-	color: #be0098 !important
-}
-
-.atlantida ul.ekit_social_media * {
-	color: #0d0b0b !important
-}
-
-.pequena {
-	font-size: 70%
-}
-
-.fa-sun:after {
-	color: #cc7d00
-}
-
-.tema-a {
-	position: relative;
-	left: 5px
-}
-
-.tema-zero {
-	display: flex
-}
-
-.fa-font:before {
-	color: #fff
-}
-
-.light .fa-font:before {
-	color: #000
-}
-
-button.w3-bar-item.w3-button.fontPlus>i:after {
-	content: '+'
-}
-
-button.w3-bar-item.w3-button.fontMinus>i:after {
-	content: '-';
-	font-size: 150%;
-	position: absolute;
-	top: 20%
-}
-
-.light .w3-button.themeLight {
-	padding: 0
-}
-
-.night .fa-font:after,
-.night .fa-font:before,
-.night .tema-zero {
-	color: #d5d5d5
-}
-
-#veja-t {
-	display: none
-}
-
-#comi-o-toba-de-quem-leu {
-	display: none
-}
-
-#comi-o-toba-de-quem-leu:checked~#veja-t {
-	display: flex;
-	border-style: groove;
-	border-width: 1px;
-	border-radius: 15px 15px 15px 0;
-	box-shadow: 6px -3px 15px 12px #5c5c5c inset
-}
-
-#comi-o-toba-de-quem-leu:checked~#esconda-t {
-	display: flex
-}
-
-#comi-o-toba-de-quem-leu:checked~#letra-zoom {
-	display: none
-}
-
-#esconda-t>label>img {
-	padding: 0 0 50%;
-	width: 30px
-}
-
-.night #esconda-t>label>img {
-	filter: invert(80%)
-}
-
-#esconda-t>label>img {
-	position: relative;
-	left: 10px;
-	filter: invert(80%)
-}
-
-.light #esconda-t>label>img {
-	filter: invert(0)
-}
-
-.light #comi-o-toba-de-quem-leu:checked~#veja-t {
-	box-shadow: 6px -3px 15px 12px #fefefe inset
-}
-
-.light .elementor-nav-menu--dropdown {
-	background-color: #fff !important
-}
-
-@media screen and (min-width:1024px) and (max-width:1600px) {
-	#esconda-t>label>img {
-		left: -55px;
-		width: 38px
-	}
-
-	#veja-t {
-		left: -13% !important
-	}
-}
-
-@media screen and (min-width:480px) and (max-width:767px) {
-	#esconda-t>label>img {
-		left: 5px;
-		width: 34px !important
-	}
-}
-
-.zooom {
-	padding: auto;
-	font-size: 100%
-}

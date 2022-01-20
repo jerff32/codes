@@ -739,18 +739,20 @@ div#tela-celular {
 }
 
 .Prata {
-    --border-width: 3px;
+    --border-width: 4px;
     position: relative;
     width: 300px;
     height: 200px;
-    background: #545454;
+    background: #343434;
+    background-blend-mode: color-burn;
+    background-position: center;
     border-radius: var(--border-width);
     margin: auto;
     padding: 8px;
 }
 
 .Prata::after {
-    position: absolute;
+        position: absolute;
     content: "";
     top: calc(-1 * var(--border-width));
     left: calc(-1 * var(--border-width));
@@ -759,11 +761,12 @@ div#tela-celular {
     height: calc(100% + var(--border-width) * 2);
     background: linear-gradient(
 60deg
-, #ffffff, #000000, #ffffff, #000000, #ffffff, #000000, #ffffff, #000000);
+,#fff,#000,#fff,#000,#fff,#000,#fff,#000);
     background-size: 300% 300%;
     background-position: 0 50%;
     border-radius: calc(2 * var(--border-width));
-    animation: bordaPrata 10s alternate infinite;
+    animation: bordaPrata 6s alternate infinite;
+    filter: drop-shadow(1px 4px 1px black);
 }
 
 @keyframes bordaPrata {

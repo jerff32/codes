@@ -648,7 +648,7 @@ div#SYS0 strong {
 }
 
 .Esverdeado {
-    filter: drop-shadow(1px 3px 1px #000) hue-rotate(300deg) !important
+    drop-shadow(1px 3px 1px #000) hue-rotate(273deg)!important
 }
 
 #sistema-celular {

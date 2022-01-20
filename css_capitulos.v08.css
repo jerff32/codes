@@ -776,6 +776,20 @@ div#tela-celular {
     position: relative;
     z-index: 0;
 }
+.Tela.t-roxa {
+    background: #532d78;
+}
+.Tela.t-roxa::after {
+    background: linear-gradient(
+30deg
+,#bc82f5,#171919,#bc82f5,#171919,#bc82f5,#171919,#bc82f5,#17191900);
+}
+
+
+
+
+
+
 @keyframes bordaPrata {
   50% {
     background-position: 100% 70%;

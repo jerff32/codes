@@ -765,7 +765,7 @@ div#tela-celular {
     height: calc(100% + var(--border-width) * 2);
     background: linear-gradient(
 60deg
-,#cdcaca,#9D5DD4,#cdcaca,#9373EB,#cdcaca,#5D5ED4,#cdcaca,#17191900);
+,#cdcaca,#171919,#cdcaca,#171919,#cdcaca,#171919,#cdcaca,#17191900);
     background-size: 300% 300%;
     background-position: 0 50%;
     border-radius: calc(2 * var(--border-width));
@@ -782,7 +782,7 @@ div#tela-celular {
 .Tela.t-roxa::after {
        background: linear-gradient(
 30deg
-,#bc82f5,#171919,#bc82f5,#171919,#bc82f5,#171919,#bc82f5,#171919);
+,#cdcaca,#9D5DD4,#cdcaca,#9373EB,#cdcaca,#5D5ED4,#cdcaca,#17191900);
     background-size: 300% 300%;
     background-position: 0 50%;
 }

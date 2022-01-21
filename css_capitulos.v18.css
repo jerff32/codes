@@ -777,12 +777,14 @@ div#tela-celular {
     z-index: 0;
 }
 .Tela.t-roxa {
-    background: #532d78;
+    background: linear-gradient(
+45deg
+, #9d5dd4, #9373eb, #5d5ed4);
 }
 .Tela.t-roxa::after {
        background: linear-gradient(
 30deg
-,#171919,#9D5DD4,#171919,#9373EB,#171919,#5D5ED4,#171919,#17191900);
+,#171919,#c888ff,#171919,#c888ff,#171919,#c888ff,#171919,#c888ff);
     background-size: 300% 300%;
     background-position: 0 50%;
 }

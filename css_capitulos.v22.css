@@ -754,7 +754,7 @@ div#tela-celular {
     margin: auto;
     padding: 8px;
     font-variant-caps: small-caps;
-    text-shadow: 2px 2px 1px black;
+    text-shadow: 2px 2px 2px black;
     color: #e9e9e9;
     font-family: 'Quicksand';
 }
@@ -782,7 +782,7 @@ div#tela-celular {
 }
 
 .Tela.t-roxa {
-	font-family: 'Bahnschrift Light'; font-variant-caps: normal;
+	font-family: 'Bahnschrift Light'; font-variant-caps:  all-petite-caps;
     background: linear-gradient(
 45deg
 , #9d5dd4, #9373eb, #5d5ed4);

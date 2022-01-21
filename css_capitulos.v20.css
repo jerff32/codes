@@ -8,8 +8,8 @@
     src: url('https://ttt.metal9000.repl.co/Dogtown Typewriter.ttf')
 }
 @font-face {
-    font-family: 'Vermin Verile';
-    src: url('https://ttt.metal9000.repl.co/Vermin_Verile.otf')
+    font-family: 'Bahnschrift Light';
+    src: url('https://ttt.metal9000.repl.co/BAHNSCHRIFT_1.TTF')
 }
 
 :root {
@@ -782,7 +782,7 @@ div#tela-celular {
 }
 .Tela.t-roxa strong {
     font-weight: 400;
-    font-family: 'Vermin Verile';
+    font-family: 'Bahnschrift Light';
     font-variant-caps: normal;
 }
 .Tela.t-roxa {

@@ -446,12 +446,12 @@ select#Todos_c option:last-child{display: none;}
     filter: invert(1) drop-shadow(1px 3px 1px #000);
     margin: var(--dist)
 }
+#DV42,#DV43,#DV44,#DV45,#DV46,#DV47,#DV48,#DV49,#DV50{background-size: contain;}
 #DV42 {
    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2022/01/dv42.webp) center no-repeat;
     filter: drop-shadow(3px 3px 1px black);
       height: 50px;
-    background-size: contain;
-}
+   }
 #DV43 {
 	background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/hr20.webp) center no-repeat;
     height: 25px;

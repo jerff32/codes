@@ -92,20 +92,6 @@ select#Todos_c option:last-child {
 }
 
 
-.divisor_ {
-    width: 100%;
-    height: 35px;
-    border-width: 0;
-    background-size: contain;
-    margin: -5px 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: drop-shadow(1px 3px 1px #000);
-}
-
-.divisor_.in {
-    filter: invert(1) drop-shadow(1px 3px 1px #000);
-}
 
 
 
@@ -1026,4 +1012,20 @@ div#SYS0.Sangrento:before {
         top: 35%;
         text-align: center
     }
+}
+
+
+.divisor_ {
+    width: 100%;
+    height: 35px;
+    border-width: 0;
+    background-size: contain;
+    margin: -5px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(1px 3px 1px #000);
+}
+
+.divisor_.in {
+    filter: invert(1) drop-shadow(1px 3px 1px #000);
 }

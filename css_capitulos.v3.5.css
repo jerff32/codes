@@ -411,13 +411,15 @@ background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-c
 
 #DV44 {
     background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/hr21.webp);
-    height: 70px;
+ margin: -35px auto !important;
 }
 
 #DV45 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/hr22.webp);
-    height: 75px;
-    filter: hue-rotate(219deg) invert(1) drop-shadow(2px 4px 2px black);
+  background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/hr22.webp);
+    filter: hue-rotate(
+219deg
+) invert(1) drop-shadow(2px 4px 2px black) !important;
+    margin: -20px auto !important;
 }
 
 

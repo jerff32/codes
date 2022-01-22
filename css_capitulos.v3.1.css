@@ -562,7 +562,7 @@ div#SYS0 strong {
     background-size: contain;
     filter: drop-shadow(1px 3px 1px #000);
     position: absolute;
-    margin: -40px 0
+    margin: -40px 0;border-color: transparent;
 }
 
 #Vermelho1 {
@@ -809,7 +809,7 @@ div#tela-celular {
     background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/06/Ouro1.png) center no-repeat;
     background-size: contain;
     filter: drop-shadow(1px 3px 1px #000);
-    ;
+   border-color: transparent;
     position: relative;
     top: 5px
 }
@@ -817,7 +817,7 @@ div#tela-celular {
 #DRG2 {
     height: 30px;
     background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/06/Ouro2.png) center no-repeat;
-    filter: drop-shadow(1px 3px 1px #000);
+    filter: drop-shadow(1px 3px 1px #000);border-color: transparent;
 
 }
 

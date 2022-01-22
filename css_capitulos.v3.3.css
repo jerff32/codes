@@ -39,11 +39,17 @@ select#Todos_c option:last-child {
 
 
 #DVZX {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/dvz.png);
+    top: -3px;
+    background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/hr6.webp) center no-repeat;
     filter: invert(1) drop-shadow(1px 3px 1px #000);
     opacity: .5;
     position: relative;
-    top: 3px
+    background-size: 300px;
+    height: 40px;
+    border-color: transparent;
+    transform: rotate(
+180deg
+);
 }
 
 #DVZX1 {
@@ -61,11 +67,13 @@ select#Todos_c option:last-child {
 }
 
 #DVZZ {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/dvz-1.png);
+       background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv51.webp) center no-repeat;
     filter: invert(1) drop-shadow(1px 3px 1px #000);
-
-    opacity: .5;
-    position: relative
+    opacity: .8;
+    position: relative;
+    background-size: contain;
+    height: 40px;
+    border-color: transparent;
 }
 
 #DVSEN {
@@ -555,25 +563,24 @@ div#SYS0 strong {
 }
 
 #DVBLU {
-
     height: 48px;
-
     background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/topo11.webp) center no-repeat;
     background-size: contain;
     filter: drop-shadow(1px 3px 1px #000);
     position: absolute;
-    margin: -40px 0;border-color: transparent;
+    margin: -40px 0;
+    border-color: transparent;
+    width: 100%;
 }
 
 #Vermelho1 {
-
     height: 46px;
-
     background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/topo12.webp) center no-repeat;
     background-size: contain;
     filter: drop-shadow(0px 3px 2px #000) drop-shadow(0px 3px 8px #000);
     position: absolute;
-    margin: -36px 0
+    margin: -36px 0;width: 100%;
+    border-color: transparent;
 }
 
 .COR>h2,
@@ -811,14 +818,14 @@ div#tela-celular {
     filter: drop-shadow(1px 3px 1px #000);
    border-color: transparent;
     position: relative;
-    top: 5px;opacity: 0.5;
+    top: 5px;opacity: 0.8;
 }
 
 #DRG2 {
     height: 30px;
     background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/06/Ouro2.png) center no-repeat;
     filter: drop-shadow(1px 3px 1px #000);border-color: transparent;    background-size: contain;
-    opacity: 0.5;
+    opacity: 0.8;
 
 }
 

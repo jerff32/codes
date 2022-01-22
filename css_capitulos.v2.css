@@ -462,7 +462,7 @@ select#Todos_c option:last-child{display: none;}
 }
 #DV45 {
 	background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/hr22.webp) center no-repeat;
-    height: 85px;
+    height: 85px;filter: hue-rotate(219deg) invert(1) drop-shadow(2px 4px 2px black);
 }
 
 #DV31 {

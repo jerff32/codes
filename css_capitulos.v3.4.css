@@ -69,7 +69,7 @@ select#Todos_c option:last-child {
 #DVZZ {
        background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv51.webp) center no-repeat;
     filter: invert(1) drop-shadow(1px 3px 1px #000);
-    opacity: .8;
+    opacity: .5;
     position: relative;
     background-size: contain;
     height: 40px;

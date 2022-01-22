@@ -105,8 +105,10 @@ select#Todos_c option:last-child {
 
 #DV2 {
 
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/JhAHq12.png);
-    background-size: 40%;
+background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv30.webp);
+    filter: hue-rotate(
+186deg
+) drop-shadow(1px 2px 1px black) !important;
 
 
 }
@@ -114,7 +116,8 @@ select#Todos_c option:last-child {
 #DV3 {
 
 
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/JhAHq12.png);
+   background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv30.webp);
+    filter: hue-rotate(286deg) drop-shadow(1px 2px 1px black) !important;
 
 
 
@@ -123,8 +126,7 @@ select#Todos_c option:last-child {
 #DV4 {
 
 
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-10-1.png);
-    margin: 0;
+     background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv31.webp)
 
 }
 
@@ -132,7 +134,7 @@ select#Todos_c option:last-child {
 #DV5 {
 
 
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-7.png);
+     background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv32.webp)
 
 
 
@@ -142,7 +144,7 @@ select#Todos_c option:last-child {
 
 
 
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camda-7-.png);
+     background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv32.webp)
 
 
 }
@@ -151,7 +153,7 @@ select#Todos_c option:last-child {
 
 
 
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/dvz-1.png);
+    background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv33.webp)
 
 
 
@@ -161,7 +163,7 @@ select#Todos_c option:last-child {
 
 
 
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/dvz.png);
+     background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv34.webp)
 
 
 
@@ -302,83 +304,96 @@ select#Todos_c option:last-child {
 }
 
 #DV23 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-9-1.png)
+     background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv35.webp)
 }
 
 #DV24 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-8-1.png)
+     background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv36.webp)
 }
 
 #DV25 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-7-1.png)
+    background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv37.webp)
 }
 
 #DV26 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-6-1.png)
+     background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv38.webp)
 }
 
 #DV27 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-5-1.png)
+   background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv39.webp)
 }
 
 #DV28 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-4-1.png)
+       background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv40.webp);
+    height: 25px !important;
 }
 
 #DV29 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-5-copiar-2.png)
+        background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv41.webp);
+    height: 25px !important;
 }
 
 #DV30 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-6-copiar-2.png)
+       background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv42.webp);
+    height: 25px !important;
 }
 
 #DV31 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-7-copiar-2.png);    height: 15px !important;
+        background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv43.webp);
 }
 
 #DV32 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-8-copiar-2.png)
+    background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv44.webp);
+    height: 15px !important;
 }
 
 #DV33 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-9-copiar-2.png)
+  background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv45.webp);
+    height: 26px !important;
 }
 
 #DV34 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-10-copiar-2.png)
+   background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv46.webp);
+    height: 26px !important;
 }
 
 #DV35 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-11-copiar-2.png)
+   background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv47.webp);
+    height: 26px !important;
 }
 
 #DV36 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/Camada-12-copiar-2.png)
+   background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv48.webp);
+    height: 26px !important;
 }
 
 #DV37 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/DV-copiar-2.png)
+    background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv49.webp);
+
 }
 
 #DV38 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/4d4.png)
+    background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv50.webp);
+    height: 30px !important;
 }
 
 #DV39 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/5f.png)
+      background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv51.webp)
 }
 
 #DV40 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/dx.png)
+       background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv52.webp);
+    height: 25px !important;
 }
 
 #DV41 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2021/04/nr.png)
+       background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv53.webp);
+
 }
 
 #DV42 {
-    background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2022/01/dv42.webp)
+       background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv54.webp);
+    height: 25px !important;
 }
 
 #DV43 {

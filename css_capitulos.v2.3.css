@@ -398,6 +398,22 @@ select#Todos_c option:last-child {
 }
 
 
+#Conteudo_cap .divisor_ {
+    width: 100%;
+    height: 35px;
+    border-width: 0;
+    background-size: contain;
+    margin: -5px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(1px 3px 1px #000);
+}
+
+#Conteudo_cap .divisor_.in {
+    filter: invert(1) drop-shadow(1px 3px 1px #000);
+}
+
+
 
 
 #SYS0 {
@@ -1015,17 +1031,4 @@ div#SYS0.Sangrento:before {
 }
 
 
-.divisor_ {
-    width: 100%;
-    height: 35px;
-    border-width: 0;
-    background-size: contain;
-    margin: -5px 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: drop-shadow(1px 3px 1px #000);
-}
 
-.divisor_.in {
-    filter: invert(1) drop-shadow(1px 3px 1px #000);
-}

@@ -419,29 +419,6 @@ select#Todos_c option:last-child{display: none;}
 }
 
 
-.light #DV21,
-.light #DV23,
-.light #DV24,
-.light #DV25,
-.light #DV26,
-.light #DV27,
-.light #DV28,
-.light #DV29,
-.light #DV30,
-.light #DV31,
-.light #DV32,
-.light #DV33,
-.light #DV34,
-.light #DV35,
-.light #DV36,
-.light #DV37,
-.light #DV38,
-.light #DV39,
-.light #DV40,
-.light #DV41 {
-    filter: invert(0) drop-shadow(2px 4px 6px #000);
-    opacity: 1
-}
 
 #DV23,
 #DV24,
@@ -461,7 +438,7 @@ select#Todos_c option:last-child{display: none;}
 #DV38,
 #DV39,
 #DV40,
-#DV41,#DV42 {
+#DV41,#DV42,#DV43,#DV44,#DV45,#DV46,#DV47,#DV48,#DV49,#DV50,#DV51,#DV52,#DV53,#DV54,#DV55 {
     width: var(--ttz);
     height: 40px;
     border-width: var(--psc);

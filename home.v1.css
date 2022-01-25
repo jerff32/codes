@@ -1,0 +1,383 @@
+
+a.capitulo {
+          position: relative;
+    margin: 8px;
+    padding: 3px 10px;
+    background: #0000004a;
+    border-radius: 12px 1px;
+    border: ridge 1px #6ce3db;
+    top: 4px;
+    max-height: 23px;
+}
+
+span.cap-novo {
+        height: 15px;
+    position: absolute;
+    bottom: -16px;
+    left: -1px;
+    font-size: 9px;
+    font-weight: 600;
+    color: #e3c604;
+    width: 35px;
+    background: #000000;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    border: none;
+    border-top: none;
+}
+
+
+.linha:nth-child(2n+1) {
+    background: #00000047;
+    box-shadow: inset 0 0 1px black;
+}
+.linha:nth-child(2n+1) a.capitulo:after {
+    color: #0f181a;
+}
+ .linha:nth-child(2n+1) a.capitulo:visited .cap-novo{
+     background:  #0f181a;
+     color:  #0f181a;
+ }
+
+  a.capitulo:visited .cap-novo {
+       color: #152124;
+       background: #152124;
+  }
+
+a.capitulo:after {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    position: absolute;
+    right: -15px;
+    color: #152124;
+}
+a.capitulo:visited:after, .linha:nth-child(2n+1) a.capitulo:visited:after {
+    color: #48cb05;    
+}
+
+
+a.capitulo:visited {
+    color: #838383;
+    border-color: #afafaf;
+}
+.linha {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    border-radius: 18px;
+}
+span.capa {
+    overflow: hidden;
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    position: relative;transition: all .2s;margin-top: 6px;
+}
+span.capa>img {
+    border-radius: 50%;
+    padding: 3px;
+}
+
+span.capa:before {
+    content: '';
+    display: block;
+    width: 51px;
+    height: 52px;
+    background: url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/borda-capa.webp) no-repeat;
+    position: absolute;
+    background-size: 52px;    z-index: 1;
+}
+
+div#lista_recentes .titulo,  .hora {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+span.titulo {
+    width: 388px;
+    position: absolute;    top: 0;       margin-left: 8px;
+}
+
+a.indice {
+    margin-left: 8px;
+    position: relative; overflow: visible !important
+}
+
+span.nacionalidade {
+    width: 250px;
+    font-size: 12px;
+}
+
+
+span.capitulos {
+    width: 400px;
+    margin-top: 12px;
+    font-size: 12px;height: 25px;white-space: nowrap;
+}
+
+.linha:hover a.indice span.capa {
+    transform: scale(1.2);
+}
+
+span.equipe {
+    width: 275px;
+    display: flex;
+    align-items: flex-start;    position: relative;    height: 28px;
+}
+span.a-nome {
+    display: inline-grid;
+    margin-left: 5px;
+    color: #c5c5c5;
+    font-size: 12px;white-space: nowrap;
+}
+span.funcao {
+        font-size: 9px;
+    position: absolute;
+    bottom: 0;
+    text-shadow: 1px 1px 2px black;
+    color: #80b3cb;
+}
+.equipe img.avatar.avatar-32.photo {
+    max-height: 32px;
+    height: 32px;
+    width: 32px;min-width: 32px;
+    min-height: 32px;
+}
+.hora i {
+    padding: 5px;
+      color: #d9d9d9;
+}
+span.hora {
+    font-size: 13px;
+    text-shadow: 1px 2px 2px black;width: 130px;
+}
+span.nacionalidade img {
+    width: 25px;
+    border-radius: 0;
+    margin-right: 5px;
+}
+
+/*
+
+   LOADING da CAPA
+*/
+
+span.capa:after {
+content: "\f6ad";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    color: #4cb7c1;
+    background: #000000a3;
+    border-radius: 50%;
+    z-index: 0;
+    padding: 0;
+    transform: rotate(
+0deg
+);
+    animation: transform 1s linear infinite;
+}
+
+
+@media only screen and (max-width: 1200px){
+    span.titulo {
+    width: 345px;
+        }
+    
+}
+
+@media only screen and (max-width: 1080px){
+    span.titulo {
+    width: 320px;}
+}
+
+@media only screen and (max-width: 970px){
+span.equipe {
+    width: 225px;}
+    span.nacionalidade {
+    width: 200px;}
+}
+@media only screen and (max-width: 870px){
+span.equipe {
+    width: 205px;}
+    span.nacionalidade {
+    width: 150px;}
+}
+
+
+@media only screen and (max-width: 780px){
+.equipe img {
+    display: none;
+}span.equipe {
+    width: 150px;
+}span.titulo {
+    width: 385px;
+}
+    
+}
+
+@media only screen and (max-width: 680px){
+span.capitulos {
+    width: 245px;}
+    span.equipe {
+top: 5px;}
+
+}
+@media only screen and (max-width: 668px){
+    span.nacionalidade {
+    display: none;}}
+    @media only screen and (max-width: 600px){
+        span.hora {
+    font-size: 11px;
+    width: 102px;
+    margin-top: 5px;
+}
+        
+    }
+    
+        @media only screen and (max-width: 540px){
+     span.a-nome {
+    font-size: 10px;
+}span.funcao {
+    font-size: 8px;
+    bottom: 3px;
+}    span.equipe {
+    margin: 10px;
+    width: 100px;
+}   
+        }
+     @media only screen and (max-width: 480px){
+    span.equipe{display:none;}
+}
+  @media only screen and (max-width: 415px){
+      span.titulo {
+    width: 260px;
+}
+  }
+  @media only screen and (max-width: 368px){
+.linha {
+    height: 98px;}span.hora {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}span.titulo {
+    top: -5px;
+}span.capitulos {
+    margin: 0;
+}
+    
+    
+  }
+   @media only screen and (max-width: 340px){
+       span.titulo{
+           width: 200px;
+       }
+   }
+
+@-webkit-keyframes transform {
+  from { transform:rotate(0deg);}
+  to { transform: rotate(360deg);}
+}
+
+@-moz-keyframes transform {
+  from {transform: rotate((0deg);}
+  to { transform: rotate((360deg);}
+}
+
+
+
+/*#######################*/
+#C_novel{
+    padding: 5px
+}
+#C_novel *{
+overflow: visible !important;    
+}
+#C_novel .ue_post_blocks_box:hover{
+    z-index:10;   
+    filter: drop-shadow(2px 2px 4px black);
+    
+}
+#C_novel .ue_post_blocks_box
+{
+    position: relative;
+}
+
+#C_novel .ue_post_blocks_content {
+position: absolute;
+    top: 55%;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #001b22d9;
+    box-shadow: 1px 2px 3px black;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    
+}
+
+#C_novel .ue_post_blocks_box:hover .ue_post_blocks_content {
+    opacity: .9;
+     top: 45%;
+}
+ #C_novel .ue_post_blocks_box:hover .ue_post_blocks_image a
+ {
+      
+ transform: perspective(1000px) rotateY(
+-37deg
+) rotate(
+0deg
+)!important;
+transition: all .3s ease-in-out;
+}
+
+#C_novel .ue_post_blocks_image a {
+    pointer-events: none;
+    transition: all .3s ease-in-out
+    
+}
+#C_novel img {border-radius: 0;  transform: none !important;}
+
+#C_novel .ue_post_blocks_box .ue_post_blocks_image a:after {
+    content: '';
+    background: #152124;
+    width: 100%;
+    height: 98%;
+    position: absolute;
+    top: 2px;
+    z-index: -2;
+    left: 0;
+    border: ridge #65bcd4 2px;  transition: all .25s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+#C_novel .ue_post_blocks_box:hover .ue_post_blocks_image a:after{
+    left: 17px;
+}
+#C_novel .ue_post_blocks_box .ue_post_blocks_image a:before{
+        
+        transition: all .25s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+         right: 0px;
+        top: 2%;
+   
+    z-index: -2;
+    width: 15px;
+    height: 96%;
+    content: "";
+    position: absolute;
+    background: url(/wp-content/uploads/2022/01/folhas.png);
+    background-size: 100% 100%;
+}
+   
+#C_novel .ue_post_blocks_box:hover .ue_post_blocks_image a:before {
+     right: -13px;
+     z-index: -1;
+}

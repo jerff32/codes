@@ -400,7 +400,7 @@ background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-c
 }
 
 #DV42 {
-       background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv54.webp);
+       background: transparent url(https://vulcannovel.com.br/wp-content/uploads/2022/01/dv42.webp);
     height: 25px !important;
 }
 
@@ -422,6 +422,10 @@ background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-c
     margin: -20px auto !important;
 }
 
+#DV46 {
+       background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/dv54.webp);
+    height: 25px !important;
+}
 
 #Conteudo_cap .divisor_ {
     width: 100%;

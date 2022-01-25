@@ -165,16 +165,19 @@ div#T\~T,.cartao_s img {
 
 .nave-slide {
     display: flex;
+    width: 100%;
+    justify-content: center;
+    z-index: 1;
 }
 .nave-slide .esfera{
     width: 10px;
     height: 10px;
     display: block;
     position: relative;
-    bottom: 0;
+    bottom: 18px;
     z-index: 2;
     border-radius: 50%;
-    background: #45857e;
+    background: #152124;
     margin: 4px;
 }
 

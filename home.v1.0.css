@@ -157,7 +157,11 @@ input[type=radio] {
 #Item1:checked ~ .cartao_s #NOVEL-1 img, #Item2:checked ~ .cartao_s #NOVEL-2 img, #Item3:checked ~ .cartao_s #NOVEL-3 img {
   box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
 }
-
+#item-1:checked ~ .nave-slide #NOVEL-1, #item-2:checked ~ .nave-slide #NOVEL-2, #item-3:checked ~ .nave-slide #NOVEL-3{
+background: #19def0;
+    width: 18px;
+    border-radius: 15px;
+}
 
 div#T\~T,.cartao_s img {
     height: 200px;
@@ -174,18 +178,14 @@ div#T\~T,.cartao_s img {
     height: 10px;
     display: block;
     position: relative;
-    bottom: 18px;
+    bottom: 0;
     z-index: 2;
-    border-radius: 50%;
-    background: #152124;
+    border-radius: 20px;
+    background: #f9f9f9;
     margin: 4px;
 }
 
-#item-1:checked ~ .nave-slide #NOVEL-1, #item-2:checked ~ .nave-slide #NOVEL-2, #item-3:checked ~ .nave-slide #NOVEL-3{
-background: #19def0;
-    width: 18px;
-    border-radius: 15px;
-}
+
 
 
 

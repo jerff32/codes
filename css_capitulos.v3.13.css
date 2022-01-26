@@ -1301,9 +1301,7 @@ body.Terra {
     background-color: #e9e7e7 !important;
     box-shadow: none !important;
 }
-.Fogo .zeus-navbar-wrap>div, .Agua .zeus-navbar-wrap>div, .Ar .zeus-navbar-wrap>div{
-    filter: invert(1);
-}
+
 .Fogo .elementor-post-info *,
 .Terra .elementor-post-info *,
 .Agua .elementor-post-info *,
@@ -1562,7 +1560,12 @@ top: 4px}
     bottom: 124px;
     filter: invert(1);
 }
-
+.Fogo .zeus-navbar-wrap, .Fogo #Zeuss .zeus-navbar {
+    background-color: #ff8f8f !important;
+}
+.Agua .zeus-navbar-wrap, .Agua #Zeuss .zeus-navbar {
+    background-color: #46c4fd !important;
+}
 /*###############################*/
 .Person .Progresso>div,.Person section#I-caps,.Person #I-caps input#is-search-input-119296  {
       filter: brightness(0.8);
@@ -1577,7 +1580,7 @@ body.Person{
     text-shadow: none !important;
 }
 
-.Fogo .zeus-navbar-wrap, .Agua .zeus-navbar-wrap, .Person .zeus-navbar-wrap {
+.Person .zeus-navbar-wrap {
     background-color: var(--corFundo)!important;
     box-shadow: none!important;
     filter: grayscale(.3);

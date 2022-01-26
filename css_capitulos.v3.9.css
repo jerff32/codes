@@ -630,9 +630,7 @@ div#SYS0 strong {
     background-blend-mode: color-dodge;
     background-size: cover;
     border-top: ridge 7px;
-    border-bottom: groove 6px
-px
-;
+    border-bottom: groove 6px;
     border-color: #0dbf00;
     margin-top: 30px!important;
 }

@@ -1178,7 +1178,7 @@ button.b-tema,.b-tema {
     width: 5px;
     height: 5px;
     position: absolute;
-    top: -5px;
+    top: -2px;
     right: 10px;
     border-radius: 50%;
     box-shadow: 0 0 5px #00ff66;
@@ -1236,7 +1236,7 @@ button.b-tema:focus-visible {
 }
 
 .b-tema.Fogo {
-    filter: invert(1) hue-rotate(243deg);
+    filter: invert(1) hue-rotate(200deg);
     background-image: url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/bandeiras/img2.webp);
 
 }
@@ -1255,7 +1255,7 @@ button.b-tema:focus-visible {
 
 
 body.Terra {
-    background-color: #b17100 !important;
+    background-color: #ffd0a1 !important;
 }
 
 .Terra .elementor-element-1c7f4b7a>div,
@@ -1266,11 +1266,15 @@ body.Terra {
 }
 
 .Terra .Progresso>div {
-    background-color: #6c4602 !important;
+    background-color: #d5ab81!important;
 }
-
-.Fogo .Progresso>div {
-    background-color: #f1e887 !important;
+.Terra span.post-navigation__next--title, .Terra span.post-navigation__prev--title {
+    color: #707070!important;
+}.Terra div#Conteudo_cap {
+    color: #8f5c04;
+}
+.Fogo .Progresso>div,.Fogo section#I-caps {
+    background-color: #ea9090!important;
 }
 
 .Fogo div#Conteudo_cap {
@@ -1279,10 +1283,6 @@ body.Terra {
 
 .Fogo div#Conteudo_cap a {
     color: #fffefd;
-}
-
-.Fogo section#I-caps {
-    background-color: #d5cc71;
 }
 
 .Fogo .current-progress {
@@ -1295,7 +1295,7 @@ body.Terra {
 }
 
 .Fogo #I-caps input#is-search-input-119296 {
-    background: #bb9823 !important;
+    background: #b45757!important
 }
 .Fogo .zeus-navbar-wrap, .Agua .zeus-navbar-wrap, .Ar .zeus-navbar-wrap {
     background-color: #e9e7e7 !important;
@@ -1322,13 +1322,28 @@ body.Terra {
 }
 
 .Terra section#I-caps {
-    background-color: #4a3206;
+    background-color: #bf9a75;
 }
 
-.Terra #I-caps input#is-search-input-119296 {
-    background: #3e2906 !important;
+.Terra #I-caps input#is-search-input-119296,.Fogo #I-caps input#is-search-input-119296 {
+    background:#907559!important;
+}.Fogo span.post-navigation__next--title, .Fogo span.post-navigation__prev--title {
+    color: #845252 !important;
 }
-
+.Terra #cartaz {
+    filter: hue-rotate(
+259deg
+) drop-shadow(1px 1px 1px black);
+}.Fogo #cartaz {
+    filter: hue-rotate( 
+213deg
+ ) drop-shadow(1px 1px 1px black);
+}
+.Terra .elementor-widget-post-navigation *,.Fogo .elementor-widget-post-navigation * {
+    color: white;
+}.Terra input#is-search-input-119296 {
+    border-color: #ffd0a1 !important;
+}
 .Fogo *,
 .Terra * {
     --divider-color: #000000 !important;
@@ -1346,7 +1361,7 @@ body.Terra {
 }
 
 .Terra #menuToggle span {
-    background: #b77809;
+    background: #fff2d8;
 }
 
 .Agua span.post-navigation__prev--title,
@@ -1462,11 +1477,11 @@ body.Agua {
 }
 
 .Terra h1.elementor-heading-title {
-    color: #f79e01 !important;
+    color: #fff5eb!important;
 }
 
 body.Fogo {
-    background-color: #fff8a8 !important 
+    background-color: #ffc2c2!important
 }
 
 body.Ar {
@@ -1528,13 +1543,15 @@ body.Ar {
 }
 .b-tema.Person {
     background-image: url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/bandeiras/img8.webp);
-    background-size: contain;
+    background-size: contain;    transition: filter .8s linear;
 }.Person .Person {
     filter: invert(1);
 }.Person .Person:after {
     opacity: 1;
-    top: 0;
+   
 }
+.b-tema.Person:after{right: 8px;
+top: 4px}
 .Person .Person .Perso {
     display: flex;
     position: absolute;

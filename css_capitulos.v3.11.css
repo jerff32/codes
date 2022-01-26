@@ -783,7 +783,7 @@ div#tela-celular {
     background: #000;
     --border-width: 1px;
     font-variant-caps: normal;
-    border-radius: 8px;
+    border-radius: 8px;    margin: inherit;
 }
 
 .Tela.t-escura {

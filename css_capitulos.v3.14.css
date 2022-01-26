@@ -1561,10 +1561,25 @@ top: 4px}
     filter: invert(1);
 }
 .Fogo .zeus-navbar-wrap, .Fogo #Zeuss .zeus-navbar {
-    background-color: #ff8f8f !important;
+    background-color: #ea9090 !important;
 }
 .Agua .zeus-navbar-wrap, .Agua #Zeuss .zeus-navbar {
-    background-color: #46c4fd !important;
+    background-color: #6e8a97 !important;
+}
+.Ar #Zeuss .zeus-navbar, .Ar .zeus-navbar-wrap {
+    background-color: #cfcfcf!important;
+}
+.Fogo a.zeus-navbar-link {
+    color: #000042 !important;
+}
+.Ar .zeus-navbar-link {
+    color: black !important;
+}.Person .elementor-grid-item>div {
+    color: var(--corFonte) !important;
+}.Person .elementor-grid-item>div span.elementor-share-btn__icon {
+    background-color: var(--corFonte) !important;
+}.Person .elementor-grid-item>div span.elementor-share-btn__icon i {
+    color: var(--corFundo);
 }
 /*###############################*/
 .Person .Progresso>div,.Person section#I-caps,.Person #I-caps input#is-search-input-119296  {

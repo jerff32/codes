@@ -24,6 +24,7 @@
     --czt: 61%
 }
 
+
 div#Conteudo_cap {
     font-weight: 400;
     word-break: break-word;
@@ -624,14 +625,16 @@ div#SYS0 strong {
 }
 
 .Verde4 {
-    background-color: #0b2c07 !important;
+   background-color: #000000a8!important;
     background-image: url(https://vulcannovel.com.br/wp-content/uploads/2022/01/verde.webp);
-    background-blend-mode: hard-light;
+    background-blend-mode: color-dodge;
     background-size: cover;
     border-top: ridge 7px;
-    border-bottom: groove 6px;
+    border-bottom: groove 6px
+px
+;
     border-color: #0dbf00;
-    margin-top: 30px !important;
+    margin-top: 30px!important;
 }
 
 .Esverdeado {
@@ -1063,5 +1066,523 @@ div#SYS0.Sangrento:before {
     }
 }
 
+div#_temas>input {
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+h1.elementor-heading-title.elementor-size-default {
+    margin: -10px;
+}
+.aba-letras {
+    display: none;
+}
 
+div#_temas>input:checked~.aba-letras {
+    display: block;
+}
+
+.iconezinho img {
+    filter: invert(1) drop-shadow(2px 3px 1px black) opacity(0.6);
+    width: 40px;
+}
+
+.escolher-temas>span,
+.aba-letras .zz {
+    display: block;
+    text-align: center;
+}
+.escolher-temas {
+    display: flex;
+}
+
+.letras {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.aba-letras {
+    --border-width: 4px;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background: #000000;
+    background-blend-mode: color-burn;
+    background-position: center;
+    border-radius: var(--border-width);
+    margin: auto;
+    padding: 8px;
+    font-variant-caps: small-caps;
+    text-shadow: 2px 2px 2px #000;
+    color: #e9e9e9;
+    font-family: Quicksand;
+    margin-bottom: 10px;
+}
+
+.aba-letras:after {
+    position: absolute;
+    content: "";
+    top: calc(-1 * var(--border-width));
+    left: calc(-1 * var(--border-width));
+    z-index: -1;
+    width: calc(100% + var(--border-width) * 2);
+    height: calc(100% + var(--border-width) * 2);
+    background: linear-gradient(60deg, #cdcaca, #171919, #cdcaca, #171919, #cdcaca, #171919, #cdcaca, #17191900);
+    background-size: 300% 300%;
+    background-position: 0 50%;
+    border-radius: calc(2 * var(--border-width));
+    animation: bordaPrata 6s alternate infinite;
+    filter: drop-shadow(1px 4px 1px black);
+}
+
+.letras>button {
+    background: radial-gradient(#282828, transparent);
+    padding: 5px 14px;
+}
+
+button.letra-menos {
+    font-size: 12px;
+    padding: 6px 18px;
+    padding-top: 9px;
+}
+
+button.letra-menos:after {
+    content: '-';
+}
+
+button.letra-mais:after {
+    content: '+';
+}
+
+
+button.b-tema,.b-tema {
+    border-radius: 10px;
+    padding: 0;
+    width: 45px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative
+}
+
+.b-tema:after {
+    content: '';
+    opacity: 0;
+    background: #00ff11;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #00ff66;
+    transition: opacity .5s linear;
+}
+
+.Terra .Terra:after,
+.Ying .Ying:after,
+.Fogo .Fogo:after,
+.Agua .Agua:after,
+.Ar .Ar:after {
+    opacity: 1;
+}
+
+.Fogo .Fogo:after {
+    filter: invert(1) hue-rotate(45deg);
+}
+
+.Agua .Agua:after {
+    filter: hue-rotate(325deg) invert(1);
+}
+
+.Ying .Ying:after {
+    background: #878787;
+    box-shadow: 0 0 3px #d1ff00;
+}
+
+.Ar .Ar:after {
+    filter: contrast(0.5);
+}
+
+button.b-tema:hover,
+button.b-tema:focus,
+button.b-tema:target,
+button.b-tema:focus-visible {
+    background-color: transparent;
+    border: none;
+    outline: transparent;
+}
+
+.b-tema.Ying {
+    background-image: url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/bandeiras/img6.webp);
+
+}
+
+.b-tema.Terra {
+
+    background-image: url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/bandeiras/img3.webp);
+    filter: hue-rotate(
+312deg
+);
+
+
+
+}
+
+.b-tema.Fogo {
+    filter: invert(1) hue-rotate(243deg);
+    background-image: url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/bandeiras/img2.webp);
+
+}
+
+.b-tema.Agua {
+    filter: invert(1) hue-rotate(108deg);
+    background-image: url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/bandeiras/img4.webp);
+
+}
+
+.b-tema.Ar {
+    filter: brightness(6);
+    background-image: url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/bandeiras/img1.webp);
+
+}
+
+
+body.Terra {
+    background-color: #b17100 !important;
+}
+
+.Terra .elementor-element-1c7f4b7a>div,
+.Fogo .elementor-element-1c7f4b7a>div,
+.Agua .elementor-element-1c7f4b7a>div,
+.Ar .elementor-element-1c7f4b7a>div ,.Person .elementor-element-1c7f4b7a>div {
+    background-color: transparent !important;
+}
+
+.Terra .Progresso>div {
+    background-color: #6c4602 !important;
+}
+
+.Fogo .Progresso>div {
+    background-color: #f1e887 !important;
+}
+
+.Fogo div#Conteudo_cap {
+    color: black;
+}
+
+.Fogo div#Conteudo_cap a {
+    color: #fffefd;
+}
+
+.Fogo section#I-caps {
+    background-color: #d5cc71;
+}
+
+.Fogo .current-progress {
+    background-image: linear-gradient(90deg, #fdff00 0%, #ff5722 100%) !important;
+    filter: drop-shadow(-1px 2px 1.5px black);
+}
+
+.Fogo h1.elementor-heading-title.elementor-size-default {
+    color: black !important;
+}
+
+.Fogo #I-caps input#is-search-input-119296 {
+    background: #bb9823 !important;
+}
+.Fogo .zeus-navbar-wrap, .Agua .zeus-navbar-wrap, .Ar .zeus-navbar-wrap {
+    background-color: #e9e7e7 !important;
+    box-shadow: none !important;
+}
+.Fogo .zeus-navbar-wrap>div, .Agua .zeus-navbar-wrap>div, .Ar .zeus-navbar-wrap>div{
+    filter: invert(1);
+}
+.Fogo .elementor-post-info *,
+.Terra .elementor-post-info *,
+.Agua .elementor-post-info *,
+.Ar .elementor-post-info * {
+    color: #1a1717 !important;
+}
+
+.Fogo div#b-lista .Cat a,
+.Terra div#b-lista .Cat a {
+    color: white;
+}
+
+.Terra .elementor-grid-item>div,
+.Fogo .elementor-grid-item>div {
+    color: black !important;
+}
+
+.Terra section#I-caps {
+    background-color: #4a3206;
+}
+
+.Terra #I-caps input#is-search-input-119296 {
+    background: #3e2906 !important;
+}
+
+.Fogo *,
+.Terra * {
+    --divider-color: #000000 !important;
+}
+
+.Fogo .post-navigation__next--label,
+.Terra .post-navigation__next--label,
+.Fogo .post-navigation__prev--label,
+.Terra .post-navigation__prev--label {
+    color: #000000 !important;
+}
+
+.Fogo #menuToggle span {
+    background: black;
+}
+
+.Terra #menuToggle span {
+    background: #b77809;
+}
+
+.Agua span.post-navigation__prev--title,
+.Agua span.post-navigation__next--title {
+    color: black !important;
+}
+
+.Agua h1,
+.Agua h2,
+.Agua h3,
+.Agua h4,
+.Agua h5 {
+    color: rebeccapurple;
+}
+
+.Agua div#b-lista .Cat a {
+    color: #000000;
+    text-shadow: none;
+}
+
+.Agua .elementor-grid-item>div {
+    color: #2812ab !important;
+}
+
+.Agua #cartaz,
+.Ar #cartaz {
+    filter: invert(1);
+}
+
+.Agua section#I-caps {
+    background-color: #349a92;
+}
+
+.Agua #I-caps input#is-search-input-119296 {
+    background: #00625b !important;
+}
+
+body.Agua {
+    background-color: #98dfff !important;
+}
+
+.Agua .Progresso>div {
+    background-color: #84fbf2 !important;
+}
+
+.Agua div#Conteudo_cap {
+    color: #044e70;
+}
+
+.Agua div#Conteudo_cap a {
+    color: #0039ff;
+}
+
+.Ar div#b-lista .Cat a {
+    color: #4c0099;
+    text-shadow: none;
+}
+
+
+.Agua h1.elementor-heading-title.elementor-size-default,
+.Ar h1.elementor-heading-title.elementor-size-default {
+    color: #057781 !important;
+    text-shadow: none !important;
+}
+
+.Agua .current-progress {
+    background-image: linear-gradient(90deg, #00deff 0%, #0051ff 100%) !important;
+    filter: drop-shadow(-1px 2px 1.5px black);
+}
+
+.Ar .current-progress {
+    background-image: linear-gradient(90deg, #ffffff 0%, #ddfcff 100%) !important;
+    filter: drop-shadow(-1px 2px 1.5px black);
+}
+
+.Ar section#I-caps {
+    background-color: #bebebe;
+}
+
+.Ar #menuToggle span {
+    background: #000000;
+}
+
+.Ar #I-caps input#is-search-input-119296 {
+    background: #7a7a7a !important;
+}
+
+.Agua * {
+    --divider-color: #ffffff !important;
+}
+
+.Agua .post-navigation__next--label,
+.Agua .post-navigation__prev--label {
+    color: #2500ff !important;
+}
+
+.Fogo h1,
+.Fogo h2,
+.Fogo h3,
+.Fogo h4,
+.Fogo h5,
+.Terra h1,
+.Terra h2,
+.Terra h3,
+.Terra h4,
+.Terra h5 {
+    color: black;
+}
+
+.Terra .current-progress {
+    background-image: linear-gradient(90deg, #b17100 0%, #f8a004 100%) !important;
+    filter: drop-shadow(-1px 2px 1.5px black);
+}
+
+.Terra h1.elementor-heading-title {
+    color: #f79e01 !important;
+}
+
+body.Fogo {
+    background-color: #fff8a8 !important 
+}
+
+body.Ar {
+    background-color: #ffffff !important;
+}
+
+.Ar div#Conteudo_cap,
+.Ar h1,
+.Ar h2,
+.Ar h3,
+.Ar h4,
+.Ar h5 {
+    color: #000000;
+}
+
+.Ar hr.divisor_.in {
+    filter: invert(0) !important;
+}
+
+.Ar div#Conteudo_cap a {
+    color: #ff9800;
+}
+
+.Person div#Conteudo_cap {
+    color: var(--corFonte) !important;
+}
+
+.Ar .post-navigation__next--label,
+.Ar .post-navigation__prev--label {
+    color: #8b8b8b !important;
+}
+
+.Ar span.post-navigation__prev--title,
+.Ar span.post-navigation__next--title {
+    color: #029d86 !important;
+}
+
+.Ar .iconezinho {
+    filter: invert(1);
+}
+
+.Ar .Progresso>div {
+    background-color: #f2f2f2 !important
+}
+
+@media (max-width: 1024px) {
+    section.elementor-element-31b91bd0 {
+        display: none;
+    }
+}
+
+.Perso {
+    display: flex;
+    justify-content: space-around;
+    background: #464646;
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px black;
+    margin: 5px;display: none;
+}
+.b-tema.Person {
+    background-image: url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/bandeiras/img8.webp);
+    background-size: contain;
+}.Person .Person {
+    filter: invert(1);
+}.Person .Person:after {
+    opacity: 1;
+    top: 0;
+}
+.Person .Person .Perso {
+    display: flex;
+    position: absolute;
+    width: 205px;
+    border: solid;
+    padding: 4px 0;
+    right: 25px;
+    bottom: 124px;
+    filter: invert(1);
+}
+
+/*###############################*/
+.Person .Progresso>div,.Person section#I-caps,.Person #I-caps input#is-search-input-119296  {
+      filter: brightness(0.8);
+      background-color: var(--corFundo) !important;
+}
+body.Person{
+     background-color: var(--corFundo) !important;
+}
+
+.Person .elementor-post-info *,.Person div#b-lista .Cat a,.Person div#Conteudo_cap ,.Person h1, .Person h2, .Person h3, .Person h4, .Person h5 ,.Person .elementor-post-navigation *,.Person div#b-lista>.bo,.Person .zeus-navbar-wrap ul a,.Person .elementor-post-info *{
+    color: var(--corFonte) !important; 
+    text-shadow: none !important;
+}
+
+.Fogo .zeus-navbar-wrap, .Agua .zeus-navbar-wrap, .Person .zeus-navbar-wrap {
+    background-color: var(--corFundo)!important;
+    box-shadow: none!important;
+    filter: grayscale(.3);
+}
+.Person .elementor-115617 .elementor-element.elementor-element-32be2e14 .zeus-navbar-wrap.zeus-is-responsive ul.zeus-navbar {
+    background-color: var(--corFundo) !important;
+}
+.Person input#is-search-input-119296 {
+    border-color: var(--corFonte) !important;
+}
+.Person .current-progress {
+       background-image: linear-gradient(
+90deg
+, var(--corFundo) 0%, var(--corFonte) 100%) !important;
+}
+.Person #menuToggle span{
+    background-color: var(--corFonte) !important
+}.Person div#b-lista>.bo {
+    box-shadow: none;
+    background: #00000024;
+    border: none;
+}
 

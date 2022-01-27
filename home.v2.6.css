@@ -434,8 +434,7 @@ span.qnts {
     top: 21px;
     width: 82px;
     white-space: initial;
-    z-index: 1;
-    background: #101618;
+     background: #101618;
     padding: 5px;
     font-size: 9px;
     color: white;
@@ -446,7 +445,7 @@ span.qnts {
 }
 
 span.mais_caps:hover span.qnts{
-opacity: 1;
+opacity: 1;z-index: 1;
 }
 .qnts span {
     font-weight: 700;

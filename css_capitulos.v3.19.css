@@ -24,7 +24,10 @@
     --czt: 61%
 }
 
-
+select#letra-escolhida {
+    background: #2a2a2a;
+    color: wheat;
+}
 div#Conteudo_cap {
     font-weight: 400;
     word-break: break-word;

@@ -348,7 +348,7 @@ span.nacionalidade {
 span.capitulos {
     width: 400px;
     margin-top: 12px;
-    font-size: 12px;height: 25px;white-space: nowrap;
+    font-size: 12px;height: 25px;white-space: nowrap; position: relative;display: inherit;
 }
 
 .linha:hover a.indice span.capa {
@@ -417,6 +417,25 @@ content: "\f6ad";
 );
     animation: transform 1s linear infinite;
 }
+
+span.qnts {
+    display: none;
+    span.qnts {
+    position: absolute;
+    left: 0;
+    top: 21px;
+    max-width: 85px;
+    white-space: initial;
+    z-index: 3;
+    background: #101618;
+    padding: 5px;
+    font-size: 8px;
+    color: white;
+    border: ridge 1px #00c0b6a8;
+    border-radius: 9px;
+
+}
+
 
 
 @media only screen and (max-width: 1200px){

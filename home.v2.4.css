@@ -532,20 +532,15 @@ span.capitulos {
     width: 100px;
 }   
         }
- 
-  @media only screen and (max-width: 415px){
-      span.titulo {
-    width: 260px;
-}
-  }
-  @media only screen and (max-width: 398px){
+
+  @media only screen and (max-width: 450px){
 .linha {
     height: 98px;}span.hora {
     position: absolute;
     bottom: 0;
     left: 20px;
 }span.titulo {
-    top: -5px;
+    top: -5px; width: 260px;
 }span.capitulos {
     margin: 0;
 }

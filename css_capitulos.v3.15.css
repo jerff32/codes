@@ -776,6 +776,19 @@ div#tela-celular {
     background-position: 0 50%;
 }
 
+.Tela.t-fundo {
+   background: #171919;
+    color: white;
+    text-shadow: 0 0 1px black, 2px 2px 2px black;
+}
+
+.Tela.t-fundo::after {
+      background: linear-gradient(
+30deg
+,#363601,#fff38c,#363601,#fff38c,#363601,#fff38c,#363601,#fff38c);
+    background-size: 300% 300%;
+    background-position: 0 50%;
+}
 
 
 

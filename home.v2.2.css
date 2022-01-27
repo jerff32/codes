@@ -499,18 +499,24 @@ span.equipe {
 
 @media only screen and (max-width: 680px){
 span.capitulos {
-    width: 245px;}
+    width: 300px;}
    span.equipe{display:none;}
 
 }
 @media only screen and (max-width: 668px){
     span.nacionalidade {
-    display: none;}}
+    display: none;}
+span.capitulos {
+    width: 390px;
+}
+}
     @media only screen and (max-width: 600px){
         span.hora {
     font-size: 11px;
     width: 102px;
     margin-top: 5px;
+}span.capitulos {
+    width: 325px;
 }
         
     }

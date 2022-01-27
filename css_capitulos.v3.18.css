@@ -765,9 +765,11 @@ div#tela-celular {
 }
 
 .Tela.t-roxa {
-    font-family: 'Bahnschrift Light';
+       font-family: 'Bahnschrift Light';
     font-variant-caps: all-petite-caps;
-    background: linear-gradient(45deg, #9d5dd4, #9373eb, #5d5ed4);
+    background-image: url(https://vulcannovel.com.br/wp-content/uploads/2022/01/t_roxa.webp);
+    background-size: cover;
+    background-blend-mode: unset;
 }
 
 .Tela.t-roxa::after {

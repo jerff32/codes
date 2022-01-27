@@ -12,7 +12,7 @@
     font-family: 'Bahnschrift Light';
     src: url('https://ttt.metal9000.repl.co/BAHNSCHRIFT_1.TTF')
 }
-@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Architects+Daughter&family=Atma:wght@300&family=Chakra+Petch:wght@300&family=Coming+Soon&family=Exo:wght@200&family=Jost:wght@300&family=Lato:wght@300&family=Open+Sans+Condensed:wght@300&family=Overlock&family=Quantico&family=Roboto:wght@300&display=swap');
+
 :root {
     --fundo: 19px;
     --tela: block;
@@ -24,7 +24,7 @@
     --czt: 61%
 }
 div#Conteudo_cap p:active {
-    filter: invert(1);
+ color: burlywood
 }
 select#letra-escolhida {
     background: #2a2a2a;

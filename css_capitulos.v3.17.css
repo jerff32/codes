@@ -808,7 +808,8 @@ div#tela-celular {
     font-weight: 600;
 }
 .Person .Tela.t-fundo {
-    background: var(--corFundo);    color: var(--corFonte);
+    background: var(--corFundo);    color: var(--corFonte);   text-shadow: none;
+    font-weight: 600;
 }
 
 .Terra .Tela.t-fundo::after, .Fogo .Tela.t-fundo::after,.Ar .Tela.t-fundo::after, .Agua .Tela.t-fundo::after  {

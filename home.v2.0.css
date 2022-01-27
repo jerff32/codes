@@ -425,7 +425,7 @@ span.mais_caps {
 1deg
 , #5fdcfe6e, transparent);
     border-radius: 0 0 29% 29%;
-    box-shadow: 1px 3px 3px black;position: relative;
+    box-shadow: 1px 3px 3px black;position: relative;     color: #dedede;
 }
 
 span.qnts {
@@ -444,10 +444,19 @@ span.qnts {
     transition: opacity .3s linear;
 
 }
+
 span.mais_caps:hover span.qnts{
 opacity: 1;
 }
-
+.qnts span {
+    font-weight: 700;
+    font-size: 10px;
+}
+span.combo {
+    color: #ffee7d;
+    font-weight: 600;
+    font-family: 'eicons';
+}
 
 @media only screen and (max-width: 1200px){
     span.titulo {

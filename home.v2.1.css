@@ -453,9 +453,11 @@ opacity: 1;
     font-size: 10px;
 }
 span.combo {
-    color: #ffee7d;
-    font-weight: 600;
-    font-family: 'eicons';
+    color: #ffffff;
+    font-weight: 300;
+    text-shadow: 0 0 2px black;
+    font-family: Verdana;
+    font-size: 10px;
 }
 
 @media only screen and (max-width: 1200px){
@@ -498,8 +500,7 @@ span.equipe {
 @media only screen and (max-width: 680px){
 span.capitulos {
     width: 245px;}
-    span.equipe {
-top: 5px;}
+   span.equipe{display:none;}
 
 }
 @media only screen and (max-width: 668px){
@@ -525,9 +526,7 @@ top: 5px;}
     width: 100px;
 }   
         }
-     @media only screen and (max-width: 480px){
-    span.equipe{display:none;}
-}
+ 
   @media only screen and (max-width: 415px){
       span.titulo {
     width: 260px;

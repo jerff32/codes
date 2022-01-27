@@ -783,13 +783,37 @@ div#tela-celular {
 }
 
 .Tela.t-fundo::after {
-      background: linear-gradient(
+         background: linear-gradient(
 30deg
-,#363601,#fff38c,#363601,#fff38c,#363601,#fff38c,#363601,#fff38c);
+,#a17400,#fff38c,#a17400,#fff38c,#a17400,#fff38c,#a17400,#fff38c);
     background-size: 300% 300%;
     background-position: 0 50%;
 }
+.Terra .Tela.t-fundo {
+    background: #ffd0a1;
+}
+.Fogo .Tela.t-fundo {
+    background: #ffc2c2;
+}
+.Agua .Tela.t-fundo {
+    background: #98dfff;
+    color: black;
+    text-shadow: none;
+    font-weight: 600;
+}
+.Ar .Tela.t-fundo {
+    background: white;
+    color: black;
+    text-shadow: none;
+    font-weight: 600;
+}
+.Person .Tela.t-fundo {
+    background: var(--corFundo);    color: var(--corFonte);
+}
 
+.Terra .Tela.t-fundo::after, .Fogo .Tela.t-fundo::after,.Ar .Tela.t-fundo::after, .Agua .Tela.t-fundo::after  {
+    filter: drop-shadow(2px 2px 2px black);
+}
 
 
 .Tela.t-preta {

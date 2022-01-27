@@ -420,8 +420,7 @@ content: "\f6ad";
 
 span.qnts {
     display: none;
-    span.qnts {
-    position: absolute;
+     position: absolute;
     left: 0;
     top: 21px;
     max-width: 85px;

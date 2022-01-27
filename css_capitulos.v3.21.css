@@ -1603,17 +1603,17 @@ span.desativar {
 .b-tema.Person:after{right: 8px;
 top: 4px}
 .Person .Person .Perso {
-    position: absolute;
+       position: absolute;
     width: 205px;
     border: solid;
     padding: 4px 0;
     right: 25px;
-    bottom: 124px;
+    bottom: 0;
     filter: invert(1);
-}
-.Person .Person .Perso.ativado {
+}.Person .Person:hover .Perso {
     display: flex;
 }
+
 .Fogo .zeus-navbar-wrap, .Fogo #Zeuss .zeus-navbar {
     background-color: #ea9090 !important;
 }

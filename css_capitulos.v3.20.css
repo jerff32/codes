@@ -1575,13 +1575,22 @@ body.Ar {
 }
 
 .Perso {
-    display: flex;
     justify-content: space-around;
     background: #464646;
     border-radius: 10px;
     box-shadow: inset 0 0 6px black;
-    margin: 5px;display: none;
+    margin: 5px;
+    display: none;
 }
+
+span.desativar {
+    position: absolute;
+    right: 3px;
+    top: -3px;
+    font-size: 20px;
+    color: #ffc107;
+}
+
 .b-tema.Person {
     background-image: url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/bandeiras/img8.webp);
     background-size: contain;    transition: filter .8s linear;
@@ -1594,7 +1603,6 @@ body.Ar {
 .b-tema.Person:after{right: 8px;
 top: 4px}
 .Person .Person .Perso {
-    display: flex;
     position: absolute;
     width: 205px;
     border: solid;
@@ -1602,6 +1610,9 @@ top: 4px}
     right: 25px;
     bottom: 124px;
     filter: invert(1);
+}
+.Person .Person .Perso.ativado {
+    display: flex;
 }
 .Fogo .zeus-navbar-wrap, .Fogo #Zeuss .zeus-navbar {
     background-color: #ea9090 !important;

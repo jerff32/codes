@@ -1195,17 +1195,21 @@ div#_temas>input:checked~.aba-letras {
     filter: drop-shadow(1px 4px 1px black);
 }
 
-.letras>button {
-    background: radial-gradient(#282828, transparent);
-    padding: 5px 14px;
+.letras button {
+    background: #212121;
+    border: none;
+    border-radius: 0;    outline: none;
 }
 
-button.letra-menos {
+.letras button.letra-menos {
     font-size: 12px;
-    padding: 6px 18px;
-    padding-top: 9px;
+    padding: 9px 11px;
+    border-right: solid 1px;
 }
-
+span.letra-tamanho {
+    width: 25px;
+    text-align: center;
+}
 button.letra-menos:after {
     content: '-';
 }
@@ -1214,7 +1218,23 @@ button.letra-mais:after {
     content: '+';
 }
 
-
+.tamanho-letras {
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid 1px #fff8a8;
+    border-radius: 12px;    overflow: hidden;
+}
+.letras button.letra-mais{
+    padding: 6px;
+    border: none;
+    border-left: solid 1px;
+}
+button.letra-inicio {
+    border: solid 1px;
+    border-radius: 10px;
+}
 button.b-tema,.b-tema {
     border-radius: 10px;
     padding: 0;

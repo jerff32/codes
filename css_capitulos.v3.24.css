@@ -644,6 +644,14 @@ div#SYS0 strong {
     filter: drop-shadow(1px 3px 1px #000) hue-rotate(273deg) !important
 }
 
+#SYS0.avermelhado {
+    border-color: red;
+    background-color: #c80000 !important;
+    background-blend-mode: darken;
+}
+#SYS0.avermelhado>.Esverdeado {
+    filter: invert(1) drop-shadow(1px 3px 1px #000) !important;
+}
 #sistema-celular {
     width: 340px;
     min-height: 580px;

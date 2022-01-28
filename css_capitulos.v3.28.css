@@ -42,11 +42,7 @@ div#Conteudo_cap {
 select#Todos_c option:last-child {
     display: none;
 }
-button.letra-inicio.ativo {
-    background: #d7d197;
-    color: black;
-    outline: none;    padding: 5px 10px;
-}
+
 
 #DVZX {
     top: -3px;
@@ -1233,7 +1229,12 @@ button.letra-mais:after {
 }
 button.letra-inicio {
     border: solid 1px;
-    border-radius: 10px;
+    border-radius: 10px; padding: 5px 10px;
+}
+button.letra-inicio.ativo {
+    background: #d7d197;
+    color: black;
+    outline: none;   
 }
 button.b-tema,.b-tema {
     border-radius: 10px;

@@ -1199,7 +1199,7 @@ div#_temas>input:checked~.aba-letras {
 
 .letras button.letra-menos {
     font-size: 12px;
-    padding: 9px 11px;
+    padding: 9px 11px; border: none;
     border-right: solid 1px;
 }
 span.letra-tamanho {

@@ -45,7 +45,7 @@ select#Todos_c option:last-child {
 button.letra-inicio.ativo {
     background: #d7d197;
     color: black;
-    outline: none;
+    outline: none;    padding: 5px 10px;
 }
 
 #DVZX {

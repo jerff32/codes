@@ -23,9 +23,11 @@
     --dist: -9px 0;
     --czt: 61%
 }
-div#Conteudo_cap p:active {
- color: burlywood
+.Person div#Conteudo_cap ::selection {
+    color: var(--corFundo);
+    background: var(--corFonte);
 }
+
 select#letra-escolhida {
     background: #2a2a2a;
     color: wheat;padding: 2px 10px;

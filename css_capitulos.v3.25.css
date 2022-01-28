@@ -28,7 +28,7 @@ div#Conteudo_cap p:active {
 }
 select#letra-escolhida {
     background: #2a2a2a;
-    color: wheat;
+    color: wheat;padding: 2px 10px;
 }
 div#Conteudo_cap {
     font-weight: 400;
@@ -42,7 +42,11 @@ div#Conteudo_cap {
 select#Todos_c option:last-child {
     display: none;
 }
-
+button.letra-inicio.ativo {
+    background: #d7d197;
+    color: black;
+    outline: none;
+}
 
 #DVZX {
     top: -3px;

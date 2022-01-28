@@ -23,6 +23,13 @@
     --dist: -9px 0;
     --czt: 61%
 }
+span.restaurar {
+    position: absolute;
+    color: #009688;
+    left: 5px;
+    z-index: 1;
+    font-size: 18px;cursor: pointer; display:none;
+}
 .Person div#Conteudo_cap ::selection {
     color: var(--corFundo);
     background: var(--corFonte);
@@ -1135,7 +1142,7 @@ h1.elementor-heading-title.elementor-size-default {
     display: none;
 }
 
-div#_temas>input:checked~.aba-letras {
+div#_temas>input:checked~.aba-letras,div#_temas>input:checked~span.restaurar {
     display: block;
 }
 
@@ -1251,13 +1258,7 @@ button.b-tema,.b-tema {
     position: relative
 }
 
-span.restaurar {
-    position: absolute;
-    color: #009688;
-    left: 5px;
-    z-index: 1;
-    font-size: 18px;cursor: pointer;
-}
+
 
 .b-tema:after {
     content: '';

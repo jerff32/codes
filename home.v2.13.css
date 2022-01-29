@@ -18,12 +18,12 @@ overflow: visible !important;
 #C_novel .ue_post_blocks_content {
 position: absolute;
     top: 55%;
-    height: 35px;
+    height: 45px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #001b22d9;
+    background: #001b22ed;
     box-shadow: 1px 2px 3px black;
     opacity: 0;
     transition: all .3s ease-in-out;
@@ -32,7 +32,7 @@ position: absolute;
 
 #C_novel .ue_post_blocks_box:hover .ue_post_blocks_content {
     opacity: .9;
-     top: 45%;
+     top: 38%;
 }
  #C_novel .ue_post_blocks_box:hover .ue_post_blocks_image a
  {
@@ -49,6 +49,12 @@ transition: all .3s ease-in-out;
     pointer-events: none;
     transition: all .3s ease-in-out
     
+}
+#C_novel a {
+    pointer-events: none;
+}
+#C_novel .ue_post_blocks_box:hover a {
+  pointer-events: all;
 }
 #C_novel img {border-radius: 0;  transform: none !important;}
 

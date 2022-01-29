@@ -1112,17 +1112,8 @@ div#SYS0.Sangrento:before {
 
 
 @media print {
-    #container {
+    html *,html {
         display: none !important
-    }
-
-    body:after {
-        content: "Vᴏᴄᴇ Nᴀ̃ᴏ Pᴏᴅᴇ Iᴍᴘʀɪᴍɪʀ Esse Cᴏɴᴛᴇᴜ́ᴅᴏ ᴅᴀ Vᴜʟᴄᴀɴ!!";
-        font-size: 55px;
-        color: #000;
-        position: absolute;
-        top: 35%;
-        text-align: center
     }
 }
 

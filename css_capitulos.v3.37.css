@@ -1690,7 +1690,7 @@ body.Person{
      background-color: var(--corFundo) !important;
 }
 
-.Person .elementor-post-info *,.Person div#b-lista .Cat a,.Person div#Conteudo_cap ,.Person h1, .Person h2, .Person h3, .Person h4, .Person h5 ,.Person .elementor-post-navigation *,.Person div#b-lista>.bo,.Person .zeus-navbar-wrap ul a,.Person .elementor-post-info *{
+.Person .elementor-post-info *,.Person #Todos_c ,.Person div#b-lista .Cat a,.Person div#Conteudo_cap ,.Person h1, .Person h2, .Person h3, .Person h4, .Person h5 ,.Person .elementor-post-navigation *,.Person div#b-lista>.bo,.Person .zeus-navbar-wrap ul a,.Person .elementor-post-info *{
     color: var(--corFonte) !important; 
     text-shadow: none !important;
 }
@@ -1700,10 +1700,10 @@ body.Person{
     box-shadow: none!important;
     filter: grayscale(.3);
 }
-.Person .elementor-115617 .elementor-element.elementor-element-32be2e14 .zeus-navbar-wrap.zeus-is-responsive ul.zeus-navbar {
+.Person .elementor-115617 .elementor-element.elementor-element-32be2e14 .zeus-navbar-wrap.zeus-is-responsive ul.zeus-navbar,.Person #Todos_c  {
     background-color: var(--corFundo) !important;
 }
-.Person input#is-search-input-119296 {
+.Person input#is-search-input-119296,.Person #Zeuss .zeus-navbar-wrap {
     border-color: var(--corFonte) !important;
 }
 .Person .current-progress {
@@ -1711,11 +1711,13 @@ body.Person{
 90deg
 , var(--corFundo) 0%, var(--corFonte) 100%) !important;
 }
-.Person #menuToggle span{
+.Person #menuToggle span,.Person .elementor-post-navigation__separator-wrapper{
     background-color: var(--corFonte) !important
 }.Person div#b-lista>.bo {
     box-shadow: none;
     background: #00000024;
     border: none;
 }
-
+.Person * {
+    --divider-color: var(--corFonte) !important;
+}

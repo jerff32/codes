@@ -159,18 +159,20 @@ input[type=radio] {
     display: flex;
 }
 .nave-slide .esfera{
-    width: 10px;
-    height: 10px;
+   width: 30px;
+    height: 100%;
     display: none;
     position: relative;
     bottom: 0;
     z-index: 2;
-    border-radius: 50%;
-    background: #45857e;
-   margin: 3px;
     transition: none;
-     position: absolute;
-     top: 50%;
+    position: absolute;
+    font-size: 23px;
+    top: 0;
+    align-items: center;
+    color: #adeeff;
+    justify-content: center;
+
 }
 
 /*
@@ -182,11 +184,13 @@ background: #19def0;
 
 /* MOVER PARA ESQUERDA */
 #Item1:checked ~ .nave-slide label#NOVEL-3, #Item2:checked ~ .nave-slide label#NOVEL-1, #Item3:checked ~ .nave-slide label#NOVEL-2 {
-     left: 0;    display: block;
+     left: 0;    display: flex; transform: rotate(
+180deg
+);
 }
 /* DIREITA */
 #Item1:checked ~ .nave-slide label#NOVEL-2, #Item2:checked ~ .nave-slide label#NOVEL-3, #Item3:checked ~ .nave-slide label#NOVEL-1 {
-       right: 0;    display: block;
+       right: 0;    display: flex;
 }
 
 div#T\~T,.cartao_s img {

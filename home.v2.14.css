@@ -580,10 +580,11 @@ span.capitulos {
 
   @media only screen and (max-width: 450px){
 .linha {
-    height: 98px;}span.hora {
-    position: absolute;
-    bottom: 0;
-    left: 20px;
+    height: 98px;}
+      span.hora {
+   position: absolute;
+    bottom: 5px;
+    left: 62px;
 }span.titulo {
     top: -5px; width: 260px;
 }span.capitulos {

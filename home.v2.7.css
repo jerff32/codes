@@ -219,6 +219,7 @@ div#T\~T,.cartao_s img {
       div#T\~T,.cartao_s img {
     height: 140px;
 }
+   
  }
  
   @media only screen and (max-width: 350px) {
@@ -499,8 +500,10 @@ span.equipe {
 @media only screen and (max-width: 680px){
 span.capitulos {
     width: 300px;}
-   span.equipe{display:none;}
-
+   span.equipe{display:none;
+    }
+  span.qnts{
+     left: 0}
 }
 @media only screen and (max-width: 668px){
     span.nacionalidade {

@@ -823,17 +823,17 @@ div#tela-celular {
     background: #98dfff;
     color: black;
     text-shadow: none;
-    font-weight: 600;
+    font-weight: 400;
 }
 .Ar .Tela.t-fundo {
     background: white;
     color: black;
     text-shadow: none;
-    font-weight: 600;
+    font-weight: 400;
 }
 .Person .Tela.t-fundo {
     background: var(--corFundo);    color: var(--corFonte);   text-shadow: none;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .Terra .Tela.t-fundo::after, .Fogo .Tela.t-fundo::after,.Ar .Tela.t-fundo::after, .Agua .Tela.t-fundo::after  {

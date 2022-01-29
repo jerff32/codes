@@ -53,7 +53,7 @@ transition: all .3s ease-in-out;
 #C_novel a {
     pointer-events: none;
 }
-#C_novel .ue_post_blocks_box:hover .ue_post_blocks_title a {
+#C_novel .ue_post_blocks_title:hover a {
   pointer-events: all;
 }
 #C_novel img {border-radius: 0;  transform: none !important;}

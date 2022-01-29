@@ -1681,7 +1681,7 @@ body.Person{
      background-color: var(--corFundo) !important;
 }
 
-.Person .zeus-scroll-button a.button,.Person .elementor-post-info *,.Person #Todos_c ,.Person div#b-lista .Cat a,.Person div#Conteudo_cap ,.Person h1, .Person h2, .Person h3, .Person h4, .Person h5 ,.Person .elementor-post-navigation *,.Person div#b-lista>.bo,.Person .zeus-navbar-wrap ul a,.Person .elementor-post-info *{
+.Person div#disqus_thread:nth-child(1):before,.Person .zeus-scroll-button a.button,.Person .elementor-post-info *,.Person #Todos_c ,.Person div#b-lista .Cat a,.Person div#Conteudo_cap ,.Person h1, .Person h2, .Person h3, .Person h4, .Person h5 ,.Person .elementor-post-navigation *,.Person div#b-lista>.bo,.Person .zeus-navbar-wrap ul a,.Person .elementor-post-info *{
     color: var(--corFonte) !important; 
     text-shadow: none !important;
 }

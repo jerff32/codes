@@ -161,22 +161,33 @@ input[type=radio] {
 .nave-slide .esfera{
     width: 10px;
     height: 10px;
-    display: block;
+    display: none;
     position: relative;
     bottom: 0;
     z-index: 2;
     border-radius: 50%;
     background: #45857e;
    margin: 3px;
-    transition: all .2s linear;
+    transition: none;
+     position: absolute;
+     top: 50%;
 }
 
+/*
 #item-1:checked ~ .nave-slide #NOVEL-1, #item-2:checked ~ .nave-slide #NOVEL-2, #item-3:checked ~ .nave-slide #NOVEL-3{
 background: #19def0;
     width: 18px;
     border-radius: 15px;
 }
 
+/* MOVER PARA ESQUERDA */
+#Item1:checked ~ .nave-slide label#NOVEL-3, #Item2:checked ~ .nave-slide label#NOVEL-1, #Item3:checked ~ .nave-slide label#NOVEL-2 {
+     left: 0;    display: block;
+}
+/* DIREITA */
+#Item1:checked ~ .nave-slide label#NOVEL-2, #Item2:checked ~ .nave-slide label#NOVEL-3, #Item3:checked ~ .nave-slide label#NOVEL-1 {
+       right: 0;    display: block;
+}
 
 div#T\~T,.cartao_s img {
     height: 200px;

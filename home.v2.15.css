@@ -91,7 +91,34 @@ transition: all .3s ease-in-out;
      right: -13px;
      z-index: -1;
 }
+#C_novel.em-breve .ue_post_blocks_box {
+    max-width: 160px;
+}
+#C_novel.em-breve .uc-items-wrapper {
+    justify-items: center;
+}
+.meio-site img.ha-logo-grid-img.elementor-animation- {
+    width: fit-content;
+}
+.meio-site .elementor-element-605a6b5 > div,.meio-site .elementor-element-3b449be > div {
+    padding: 0px !important;
+}
+.meio-site{padding: 15px;}
+ 
 
+.meio-site .elementor-element-3b449be > div {
+    background: #00000059;
+    border-radius: 15px;
+    box-shadow: inset 0 0 2px black;
+}
+@media (min-width: 651px){
+.elementor-97754 .elementor-element.elementor-element-605a6b5 {
+    width: 50%;
+}
+.elementor-97754 .elementor-element.elementor-element-3b449be {
+    width: 50%;
+}
+}
 
 input[type=radio] {
   display: none;

@@ -465,24 +465,24 @@ background: transparent url(https://vulcannovel.com.br/wp-content/themes/hello-c
 
 
 #SYS0 {
-    max-width: max-content;
+        max-width: max-content;
     border-radius: 20px;
-    font-variant: small-caps;
     margin: auto;
     filter: drop-shadow(2px 4px 2px #000);
     background-color: #009eff70;
+    font-family: 'Chakra Petch';
 
 }
 
-div#SYS0 li {
+div#SYS0 li, .Tela li {
     text-shadow: 1px 2px 1px black, 1px 2px 1px black, -1px 1px 4px black;
     padding: 0 10px 0 0;
 }
 
-div#SYS0 li::marker {
+div#SYS0 li::marker, .Tela li::marker {
     color: #ffc0b2;
     content: '⤳ ';
-    font-size: 18px;
+    
 }
 
 #SYS0>p {
@@ -676,10 +676,9 @@ div#SYS0 strong {
 }
 
 div#tela-celular {
-    overflow-wrap: break-word;
+ overflow-wrap: break-word;
     color: #fff6e6;
-    font-variant: small-caps;
-    text-shadow: 0 1px 3px black
+    font-family: 'Open Sans Condensed';
 }
 
 #tela-celular>.txt {
@@ -749,7 +748,7 @@ div#tela-celular {
 }
 
 .Tela {
-    --border-width: 4px;
+   --border-width: 4px;
     position: relative;
     width: fit-content;
     height: fit-content;
@@ -759,10 +758,8 @@ div#tela-celular {
     border-radius: var(--border-width);
     margin: auto;
     padding: 8px;
-    font-variant-caps: small-caps;
-    text-shadow: 2px 2px 2px black;
     color: #e9e9e9;
-    font-family: 'Quicksand';
+    font-family: 'Chakra Petch';
 }
 
 .Tela::after {
@@ -844,14 +841,12 @@ div#tela-celular {
 .Tela.t-preta {
     background: #000;
     --border-width: 1px;
-    font-variant-caps: normal;
     border-radius: 8px;    margin: inherit;
 }
 
 .Tela.t-escura {
     background: #101010;
     --border-width: 1px;
-    font-variant-caps: normal;
     border-radius: 8px;
     margin: initial;
 }
@@ -874,7 +869,7 @@ div#tela-celular {
     max-width: max-content;
     margin: auto;
     filter: drop-shadow(2px 4px 2px #000);
-    background-image: linear-gradient(156deg, #000000bd, #df881380, #fe6a1833, #0000008a) !important;
+    background-image: linear-gradient(156deg, #b2761a, #df881380, #915a03, #c7831a) !important
     background-color: #6f540475 !important
 }
 
@@ -1028,10 +1023,10 @@ div#wpadminbar {
 }
 
 .tela_s.IA {
-    background: #040818;
+    background: #000000b0;
     background-image: url(https://vulcannovel.com.br/wp-content/uploads/2022/01/tech.webp);
     background-size: cover;
-    background-blend-mode: hard-light;
+    background-blend-mode: color;
 }
 
 .footnote_tooltip.position {
@@ -1049,7 +1044,7 @@ div#SYS0.wcm {
 
 #SYS0.Yellow {
     background-color: #5e5e00;
-    background-image: linear-gradient(156deg, #000000bd, #e6ff0080, #f1fe18a6, #0000008a) !important
+    background-image: linear-gradient(156deg, #c3b118, #b1a32b, #cab927, #e9e123) !important
 }
 
 div#SYS0.Marrom {
@@ -1057,12 +1052,14 @@ div#SYS0.Marrom {
 }
 
 div#SYS0.Laranja {
-    background-color: orange;
+    background-color: #cb8c18;
 }
 
 div#SYS0.Violet,
 div#SYS0.Violeta {
-    background-color: violet;
+    background-image: linear-gradient(
+156deg
+, #9317a1, #91169f, #b01ec3, #d31be5) !important;
 }
 
 div#SYS0.Indigo {

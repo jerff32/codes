@@ -517,7 +517,7 @@ div#SYS0 strong {
 }
 
 .COR {
-    background-image: url(https://vulcannovel.com.br/wp-content/uploads/2021/04/arco-iris.jpg) !important;
+    background-image: url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/arco-iris.webp) !important;
     background-position: center;
     background-color: #00000082 !important;
     color: #fff;
@@ -690,7 +690,7 @@ div#tela-celular {
 }
 
 #screen {
-    background: url(https://vulcannovel.com.br/wp-content/uploads/2021/06/001.jpg);
+    background: url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/001.webp);
     background-size: cover;
     background-position: center;
     background-color: #00000082;
@@ -870,7 +870,7 @@ div#tela-celular {
     margin: auto;
     filter: drop-shadow(2px 4px 2px #000);
     background-image: linear-gradient(156deg, #b2761a, #df881380, #915a03, #c7831a) !important
-    background-color: #6f540475 !important
+   
 }
 
 #DRG1 {

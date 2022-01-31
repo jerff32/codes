@@ -810,7 +810,7 @@ div#tela-celular {
     background-position: 0 50%;
 }
 
-.Tela.t-fundo.verdee::after {
+.Tela.t-fundo.dois::after {
     background: linear-gradient( 
 30deg
  ,#4caf50,#0c590a,#4caf50,#0c590a,#4caf50,#0c590a,#4caf50,#0c590a);
@@ -818,7 +818,7 @@ div#tela-celular {
     background-position: 0 50%;
 }
 
-.Tela.t-fundo.vermee::after {
+.Tela.t-fundo.tres::after {
     background: linear-gradient( 
 30deg
  ,#91150c,#fb2010,#91150c,#fb2010,#91150c,#fb2010,#91150c,#fb2010);

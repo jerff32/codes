@@ -863,6 +863,22 @@ div#tela-celular {
     background-size: 300% 300%;
     background-position: 0 50%;
 }
+.Tela.t-fundo.nove::after {
+    background: linear-gradient( 
+30deg
+ ,#bb3910,#ff4f17,#bb3910,#ff4f17,#bb3910,#ff4f17,#bb3910,#ff4f17);
+    background-size: 300% 300%;
+    background-position: 0 50%;
+}
+
+.Tela.t-fundo.dez::after {
+    background: linear-gradient( 
+30deg
+ ,#930c97,#f917ff,#930c97,#f917ff,#930c97,#f917ff,#930c97,#f917ff);
+    background-size: 300% 300%;
+    background-position: 0 50%;
+}
+
 
 
 .Terra .Tela.t-fundo {

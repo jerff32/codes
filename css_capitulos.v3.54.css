@@ -886,7 +886,13 @@ div#tela-celular {
         background-size: 300% 300%;
     background-position: 0 50%;
 }
-
+.Tela.t-fundo.doze::after {
+    background-image: linear-gradient( 
+174deg
+ , #ffffff, #000000, #ffffff, #000000, #ffffff, #000000, #ffffff, #000000);
+    background-size: 133% 300%;
+    background-position: 0 50%;
+}
 
 
 .Terra .Tela.t-fundo {

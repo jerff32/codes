@@ -948,7 +948,33 @@ div#tela-celular {
 }
 
 
-
+.folha {
+    position: relative;
+    background-image: linear-gradient( to bottom, #fdf288, #fdf288 90%, #c4e292, #c4e292 );
+    background-size: 100% calc(var(--tamanhoFonte) + 4px);
+    min-width: 210px;
+    min-height: 70px;
+    width: fit-content;
+    height: fit-content;
+    font-size: calc(var(--tamanhoFonte) - 3px);
+    margin: 8px;
+    color: black;
+    font-family: 'Coming Soon';
+}
+.folha:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 20px;
+    height: 100%;
+    width: 1.2%;
+    border-left: 1px solid rgba(254, 148, 99, 0.6);
+    border-right: 1px solid rgba(254, 148, 99, 0.6);
+}
+.folha-texto * {
+    margin: 0;
+    margin-left: 25px;
+}
 
 @keyframes bordaPrata {
     50% {

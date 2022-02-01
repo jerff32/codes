@@ -965,9 +965,9 @@ div#tela-celular {
     content: "";
     position: absolute;
     top: 0;
-    left: 20px;
+      left: 18px;
     height: 100%;
-    width: 1.2%;
+    width: 5px;
     border-left: 1px solid rgba(254, 148, 99, 0.6);
     border-right: 1px solid rgba(254, 148, 99, 0.6);
 }

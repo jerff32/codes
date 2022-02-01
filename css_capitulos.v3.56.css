@@ -894,6 +894,12 @@ div#tela-celular {
     background-position: 0 50%;
 }
 
+.Tela.t-fundo.treze::after {
+    background-image: url(https://vulcannovel.com.br/wp-content/themes/hello-child/divisores/glich.webp);
+    background-size: 110% 250%;
+    background-position: 0 22%;
+    filter: drop-shadow(0px 0px 2px black) drop-shadow(-1px -1px 0px black);
+}
 
 .Terra .Tela.t-fundo {
     background: #ffd0a1;

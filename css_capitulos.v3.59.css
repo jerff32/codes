@@ -787,8 +787,10 @@ div#tela-celular {
     font-variant-caps: all-petite-caps;
     background-image: url(https://vulcannovel.com.br/wp-content/uploads/2022/01/t_roxa.webp);
     background-size: cover;
-    background-blend-mode: unset;
+    background-blend-mode: unset;    text-shadow: 0 0 2px black, 0 0 2px black, 1px 1px 4px black;
 }
+
+
 
 .Tela.t-roxa::after {
     background: linear-gradient(30deg, #171919, #c888ff, #171919, #c888ff, #171919, #c888ff, #171919, #c888ff);

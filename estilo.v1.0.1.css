@@ -298,7 +298,7 @@ transition: all .3s ease-in-out;
 }
 .emMobileHome input {
     position: absolute;
-    opacity: .5;
+    opacity: 0;
     height: 100%;
     width: 41px;
     margin-left: 5px;
@@ -1282,12 +1282,15 @@ span.equipe {
 	span.emMobileHome {
     display: block;
     
+}span.homeMobile {
+    margin: 12px;
+    font-size: 23px;
 }
 span.ca_logo {
     display: none;
 }
 #cabecalho .ca_botoes {
-   display: flex;
+display: flex;
     flex-direction: column;
     background: #152124;
     padding: 10px;
@@ -1297,10 +1300,12 @@ span.ca_logo {
     border-radius: 0 15px 15px 0;
     border: solid 1px #0b7f9f;
     border-left: none;
-    left: -315px;transition: left .3s;
+    left: -15px;
+    transform: translateX(-300px);
+    transition: transform .3s;
 }
 #cabecalho input:checked ~ .ca_botoes {
-    left: -15px;
+    transform: none;
 }
 span.emMobileHome>input:checked {
     backdrop-filter: brightness(0);

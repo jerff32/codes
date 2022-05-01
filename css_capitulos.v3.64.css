@@ -1843,3 +1843,6 @@ body.Person::-webkit-scrollbar-track {
 #Titulo-pag {
     background: black !important;
 }
+div#Comentarios_cap {
+    padding: 10px;
+}

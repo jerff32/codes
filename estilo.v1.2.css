@@ -1278,6 +1278,38 @@ span.equipe {
     width: 205px;}
     span.nacionalidade {
     width: 150px;}
+	
+	span.emMobileHome {
+    display: block;
+    
+}
+span.ca_logo {
+    display: none;
+}
+#cabecalho .ca_botoes {
+   display: flex;
+    flex-direction: column;
+    background: #152124;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    width: 250px;
+    border-radius: 0 15px 15px 0;
+    border: solid 1px #0b7f9f;
+    border-left: none;
+    left: -315px;transition: left .3s;
+}
+#cabecalho input:checked ~ .ca_botoes {
+    left: -15px;
+}
+span.emMobileHome>input:checked {
+    backdrop-filter: brightness(0);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;cursor: crosshair;
+}
+
 }
 
   @media (max-width: 780px) {

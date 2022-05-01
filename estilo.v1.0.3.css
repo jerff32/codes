@@ -1273,7 +1273,13 @@ span.equipe {
   height: 200px;
 }    
   }
+#cabecalho .inicio {
+    display: none;
+}
 @media (max-width: 870px){
+	#cabecalho .inicio {
+    display: block;
+}
 span.equipe {
     width: 205px;}
     span.nacionalidade {
@@ -1302,10 +1308,15 @@ display: flex;
     border-left: none;
     left: -15px;
     transform: translateX(-300px);
-    transition: transform .3s;
+    transition: transform .3s;z-index: 1;
 }
 #cabecalho input:checked ~ .ca_botoes {
     transform: none;
+}div#cabecalho {
+    padding: 5px;
+}.ca-sub>span {
+    background: #0e1416;
+    left: 92px;
 }
 span.emMobileHome>input:checked {
     backdrop-filter: brightness(0);
@@ -1313,6 +1324,7 @@ span.emMobileHome>input:checked {
     width: 100%;
     height: 100%;
     top: 0;cursor: crosshair;
+	z-index: 1
 }
 
 }

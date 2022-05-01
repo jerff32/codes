@@ -1426,6 +1426,9 @@ span.capitulos {
         }
 
 @media (max-width: 450px) {
+	.hr_home *, .hr_home {
+    font-size: 14px;
+}
   .linha {
     height: 98px;}
       span.hora {

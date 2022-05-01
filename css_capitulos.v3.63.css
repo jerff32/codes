@@ -1840,3 +1840,6 @@ body.Person::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 2px var(--corFonte);
     background-color: var(--corFundo);
 }
+#Titulo-pag {
+    background: black !important;
+}

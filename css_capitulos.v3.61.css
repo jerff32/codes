@@ -1454,10 +1454,10 @@ body.Terra {
     background-color: #ffd0a1 !important;
 }
 
-.Terra .elementor-element-1c7f4b7a>div,
-.Fogo .elementor-element-1c7f4b7a>div,
-.Agua .elementor-element-1c7f4b7a>div,
-.Ar .elementor-element-1c7f4b7a>div ,.Person .elementor-element-1c7f4b7a>div {
+.Terra  #fundoC>div,
+.Fogo  #fundoC>div,
+.Agua  #fundoC>div,
+.Ar  #fundoC>div,.Person #fundoC>div {
     background-color: transparent !important;
 }
 
@@ -1811,7 +1811,7 @@ body.Person{
     box-shadow: none!important;
     filter: grayscale(.3);
 }
-.Person .elementor-115617 .elementor-element.elementor-element-504c71dd ,.Person .elementor-115617 .elementor-element.elementor-element-32be2e14 .zeus-navbar-wrap.zeus-is-responsive ul.zeus-navbar,.Person #Todos_c  {
+.Person .elementor-115617 .elementor-element.elementor-element-504c71dd ,.Person .zeus-navbar-wrap.zeus-is-responsive ul.zeus-navbar,.Person #Todos_c  {
     background-color: var(--corFundo) !important;
 }
 .Person input#is-search-input-119296,.Person #Zeuss .zeus-navbar-wrap {

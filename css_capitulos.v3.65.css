@@ -1841,8 +1841,6 @@ body.Person::-webkit-scrollbar-track {
     background-color: var(--corFundo);
 }
 #Titulo-pag {
-    background: black !important;
+    background: transparent !important;
 }
-div#Comentarios_cap {
-    padding: 10px;
-}
+

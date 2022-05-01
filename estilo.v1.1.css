@@ -266,7 +266,7 @@ transition: all .3s ease-in-out;
 }
 .hr_home {
     max-width: 1000px;
-    margin: auto;
+    margin: 5px auto;
     display: block;
     color: #fafdff;
     font-size: 22px;
@@ -292,6 +292,16 @@ transition: all .3s ease-in-out;
     color: #a4dce5;
     font-size: 16px;
     top: 25%;
+}span.emMobileHome {
+    display: inline-flex;
+    align-items: center;
+}
+.emMobileHome input {
+    position: absolute;
+    opacity: .5;
+    height: 100%;
+    width: 41px;
+    margin-left: 5px;
 }
 .verMaisHome i {
     padding: 0 5px;

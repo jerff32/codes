@@ -1811,7 +1811,7 @@ body.Person{
     box-shadow: none!important;
     filter: grayscale(.3);
 }
-.Person .elementor-115617 .elementor-element.elementor-element-504c71dd ,.Person .zeus-navbar-wrap.zeus-is-responsive ul.zeus-navbar,.Person #Todos_c  {
+.Person .elementor-115617 .elementor-element.elementor-element-504c71dd ,.Person #Zeuss .zeus-navbar,.Person #Todos_c  {
     background-color: var(--corFundo) !important;
 }
 .Person input#is-search-input-119296,.Person #Zeuss .zeus-navbar-wrap {

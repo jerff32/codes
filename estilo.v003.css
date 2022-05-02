@@ -871,7 +871,7 @@ span.topoPesq.hr_home {
     backdrop-filter: blur(2px);
     border-left: ridge 2px #00bf44;
     overflow: overlay;
-  display: none; right:0;
+  display: none; right:315px;
 }
 .admin-bar .hstrc{
     top: 32px;  
@@ -884,12 +884,17 @@ span.topoPesq.hr_home {
     top: 0;
     backdrop-filter: none;
 }
+
 input:checked ~ .escurecer {
     position: fixed;
     width: 100%;
     height: 100%;
     background: #0000007d;
     backdrop-filter: blur(1px);
+}
+#HstrC:checked ~ .hstrc {
+    display: block;
+    transform: translateX(-315px);
 }
 .hstrcFechar {
     position: absolute;
@@ -1322,7 +1327,7 @@ display: flex;
     background: #0e1416;
     left: 92px;
 }
-span.emMobileHome>input:checked {
+.emMobileHome>input:checked, #HstrC:checked {
     backdrop-filter: brightness(0);
     position: fixed;
     width: 100%;

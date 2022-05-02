@@ -892,6 +892,14 @@ input:checked ~ .escurecer {
     background: #0000007d;
     backdrop-filter: blur(1px);
 }
+ #HstrC:checked {
+    backdrop-filter: brightness(0);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;cursor: crosshair;
+	z-index: 1
+}
 #HstrC:checked ~ .hstrc {
     display: block;
     transform: translateX(-315px);
@@ -1327,7 +1335,7 @@ display: flex;
     background: #0e1416;
     left: 92px;
 }
-.emMobileHome>input:checked, #HstrC:checked {
+.emMobileHome>input:checked {
     backdrop-filter: brightness(0);
     position: fixed;
     width: 100%;

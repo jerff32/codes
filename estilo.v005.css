@@ -862,7 +862,7 @@ span.topoPesq.hr_home {
     color: #fff0;
 }
 .hstrc {
-        background: #1a2326c9;
+  background: #1a2326c9;
     position: fixed;
     width: 290px;
     z-index: 9;
@@ -871,7 +871,9 @@ span.topoPesq.hr_home {
     backdrop-filter: blur(2px);
     border-left: ridge 2px #00bf44;
     overflow: overlay;
-  display: none; right:315px;
+    display: none;
+    right: -315px;
+    transition: transform .3s;
 }
 .admin-bar .hstrc{
     top: 32px;  
@@ -893,12 +895,14 @@ input:checked ~ .escurecer {
     backdrop-filter: blur(1px);
 }
  #HstrC:checked {
-    backdrop-filter: brightness(0);
     position: fixed;
     width: 100%;
     height: 100%;
-    top: 0;cursor: crosshair;
-	z-index: 1
+    top: 0;
+    cursor: crosshair;
+    z-index: 2;
+    display: block;
+    opacity: 0;
 }
 #HstrC:checked ~ .hstrc {
     display: block;
@@ -915,7 +919,7 @@ input:checked ~ .escurecer {
     box-shadow: inset 0 0 4px, 0 0 1px black;
     text-align: center;
 }
-.dsadk2{display: inline-flex}
+
 div#historico_leitura {
     display: flex;
     align-items: center;

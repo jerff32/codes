@@ -39,8 +39,10 @@ html {
 }#ca_pesq input#is-search-input-119296 {
     background: #00000036 !important;
 }
-.ca_botoes a, .ca_botoes .ca-sub {
+.ca_botoes a, .ca_botoes .ca-sub, .ca_botoes label {
     color: #b0c8e0;padding: 5px
+}.ca_botoes label {
+    padding: 10px;
 }
 .ca_botoes .ca-sub{
   position: relative;
@@ -875,9 +877,21 @@ span.topoPesq.hr_home {
     top: 32px;  
     height: calc(100% - 32px)
 }
-.hstrc.aberto {
-    display: block;
-}span.hstrcFechar {
+.escurecer {
+    transition: background .5s, backdrop-filter .1s;
+    background: #fff0;
+    position: fixed;
+    top: 0;
+    backdrop-filter: none;
+}
+input:checked ~ .escurecer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #0000007d;
+    backdrop-filter: blur(1px);
+}
+.hstrcFechar {
     position: absolute;
     width: 28px;
     height: 28px;
@@ -928,24 +942,11 @@ span.projeto_hstrc a {
 }span.cap_hstrc, span.hora_hstrc {
     color: #dfdfdf;
 }
-
-span.escurecer {
-    background: transparent;
-    position: absolute;
-    transition: background .5s;
-    display: block;
-    position: fixed;
-    width: 0;
-    height: 0;
-    left: 0;
-    bottom: 0;
-    z-index: -99;
+span.escurecer.ht {
+    z-index: 1;
 }
 
-.dsadk3 {
-    display: inline-flex;
-    width: 100%;
-}.b_pesquisa {
+.b_pesquisa {
     width: 95%;
 }
 

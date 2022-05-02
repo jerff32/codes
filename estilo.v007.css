@@ -871,8 +871,7 @@ span.topoPesq.hr_home {
     backdrop-filter: blur(2px);
     border-left: ridge 2px #00bf44;
     overflow: overlay;
-    display: none;
-    right: -315px;
+    right: -325px;
     transition: transform .3s;
 }
 .admin-bar .hstrc{
@@ -905,10 +904,12 @@ input:checked ~ .escurecer {
     opacity: 0;
 }
 #HstrC:checked ~ .hstrc {
-    display: block;
-    transform: translateX(-315px);
+    transform: translateX(-325px);
+}span.ca_logo img {
+    padding: 5px;
 }
 .hstrcFechar {
+	padding: 4px;
     position: absolute;
     width: 28px;
     height: 28px;
